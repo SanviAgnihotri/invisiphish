@@ -1,0 +1,63 @@
+{
+  "name": "invisiphish",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "description": "InvisiPhish - hybrid and explainable phishing detection (FP-Growth, DistilBERT, intent analysis, URL intelligence, evidence-grounded GenAI explanations).",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && tsx scripts/node/prerender.ts",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --force",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval": "tsx scripts/node/eval.ts",
+    "verify:model": "tsx scripts/node/verify-checkpoint.ts",
+    "verify:client": "tsx scripts/node/verify-client-classifier.ts",
+    "verify:precisions": "tsx scripts/node/compare-precisions.ts",
+    "verify:explain": "tsx scripts/node/verify-explain.ts",
+    "verify:session": "tsx scripts/node/verify-session-bridge.ts",
+    "verify:samples": "tsx scripts/node/check-samples.ts",
+    "verify:e2e": "node scripts/node/verify-e2e.mjs",
+    "fetch:data": "python3 research/ml/fetch_datasets.py",
+    "train:model": "python3 research/ml/train_distilbert.py",
+    "baseline": "python3 research/ml/baseline_svm.py",
+    "provision:neon": "python3 scripts/python/provision-neon-local.py",
+    "verify": "npm run typecheck && npm run test && npm run build",
+    "build:server": "tsx scripts/node/build-server.ts",
+    "build:all": "pnpm build && pnpm build:server"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@xenova/transformers": "^2.17.2",
+    "framer-motion": "^14.5.0",
+    "jose": "^6.2.12",
+    "lucide-react": "^1.59.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "esbuild": "^0.28.2",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  },
+  "allowScripts": {
+    "sharp@0.32.6": true,
+    "esbuild@0.28.2": true
+  },
+  "packageManager": "pnpm@11.8.0"
+}

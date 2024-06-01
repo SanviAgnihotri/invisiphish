@@ -1,0 +1,15 @@
+# pnpm reads its settings from this file.
+#
+# The build scripts below are the ones the dependency tree needs. pnpm blocks
+# every other dependency script, because a package's install script is
+# arbitrary code that runs with the developer's permissions.
+#
+#   esbuild     - checks and links the platform binary for this machine
+#   sharp       - builds the native image library
+#   core-js     - prints the funding notice
+#   protobufjs  - generates its runtime code
+allowBuilds:
+  esbuild: true
+  sharp: true
+  core-js: true
+  protobufjs: true

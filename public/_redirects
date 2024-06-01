@@ -1,0 +1,5 @@
+# The public pages are prebuilt as their own files. These rules map the clean
+# path to the prebuilt file, so /login serves the sign-in page directly
+# instead of falling back to the app shell.
+/login     /login.html     200
+/register  /register.html  200

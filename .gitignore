@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+dist-server/
+*.local
+
+# Environment - never commit real secrets
+.env
+.env.*
+!.env.example
+
+# TypeScript / Vite caches
+*.tsbuildinfo
+node_modules/.tmp/
+node_modules/.vite/
+
+# Test output
+coverage/
+
+# Datasets are fetched by `python research/ml/fetch_datasets.py` rather than committed,
+# so that the exact upstream revision is always used.
+research/ml/datasets/*.csv
+research/ml/datasets/*.zip
+
+# Trained model weights are large - they are tracked with Git LFS rather than
+# ignored, so that a clone reproduces the exact checkpoint the paper's numbers
+# were measured on. See .gitattributes.
+public/models/*/training_args.bin
+
+# The int8 export is a quantisation of the tracked float32 checkpoint. The
+# browser loads it, so the one the app ships is tracked as well; the per-seed
+# copies only exist for the evaluation harness and are not tracked.
+public/models/distilbert-phishing-seed*/onnx/model_quantized.onnx
+
+# The kernel's output archives are large and reproducible; they are published
+# as GitHub release assets instead of being carried in the repository history.
+research/kaggle/output/*.zip
+
+# The watcher's status log is local runtime state, not part of the project.
+research/kaggle/watch.log
+
+# Python bytecode, and the thread transfer bundle: a 30 MB snapshot of a
+# conversation, delivered over Tailscale rather than carried in the history.
+__pycache__/
+*.pyc
+research/kaggle/output/thread-bundle.json
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
