@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "base_model": "distilbert-base-uncased",
+  "dataset": "phishing_emails.csv (capped at 25000 messages)",
+  "train_size": 20000,
+  "test_size": 5000,
+  "hyperparameters": {
+    "optimizer": "AdamW",
+    "learning_rate": 3e-05,
+    "batch_size": 16,
+    "max_epochs": 6,
+    "early_stopping_patience": 2,
+    "max_sequence_length": 160,
+    "loss": "cross-entropy",
+    "device": "cuda"
+  },
+  "test_metrics": {
+    "accuracy": 0.9866,
+    "precision": 0.9884,
+    "recall": 0.9848,
+    "f1": 0.9866,
+    "roc_auc": 0.999
+  },
+  "onnx_exported": true
+}
