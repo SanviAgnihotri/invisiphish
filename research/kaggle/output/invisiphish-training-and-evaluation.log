@@ -1,0 +1,956 @@
+[{"stream_name":"stderr","time":5.399795338,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.399838807,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.15976731,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.159811818,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.159817547,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.15982445,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.70824194,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.708289033,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.7082938930000005,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.708297363,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.693900569,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/44.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m44.0/44.0 kB\u001b[0m \u001b[31m3.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":11.61755255,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/12.0 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.2/12.0 MB\u001b[0m \u001b[31m42.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.8/12.0 MB\u001b[0m \u001b[31m56.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━\u001b[0m \u001b[32m8.0/12.0 MB\u001b[0m \u001b[31m78.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m122.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":11.61759668,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/754.2 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m754.2/754.2 kB\u001b[0m \u001b[31m326.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":11.770606596,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/23.8 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.3/23.8 MB\u001b[0m \u001b[31m158.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.2/23.8 MB\u001b[0m \u001b[31m187.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━\u001b[0m \u001b[32m20.5/23.8 MB\u001b[0m \u001b[31m228.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m23.8/23.8 MB\u001b[0m \u001b[31m229.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":11.770642734,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/566.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m566.4/566.4 kB\u001b[0m \u001b[31m394.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":11.821469549,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/185.8 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m185.8/185.8 kB\u001b[0m \u001b[31m326.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":11.821506854999999,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/3.3 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m288.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":28.063015691,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":28.063044829,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":28.063049457,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":38.260382091,"data":"\u001b[0mpython 3.13.15\n"}
+,{"stream_name":"stdout","time":38.260409345,"data":"torch 2.11.0+cu128 | cuda True\n"}
+,{"stream_name":"stdout","time":38.260432021,"data":"gpu: Tesla T4\n"}
+,{"stream_name":"stdout","time":38.260436289,"data":"transformers 4.57.6\n"}
+,{"stream_name":"stdout","time":38.260439859,"data":"numpy 2.1.3 | pandas 2.3.3\n"}
+,{"stream_name":"stdout","time":38.413939177,"data":"node: v20.19.0\n"}
+,{"stream_name":"stdout","time":38.811454638,"data":"npm : 10.8.2\n"}
+,{"stream_name":"stdout","time":38.81148153,"data":"[beat] node ready\n"}
+,{"stream_name":"stdout","time":39.397365294,"data":"candidate roots:\n"}
+,{"stream_name":"stdout","time":39.397394471,"data":"   /kaggle/input/datasets\n"}
+,{"stream_name":"stdout","time":39.39739941,"data":"   /kaggle/input/datasets/cptadityavyas/invisiphish-training-package\n"}
+,{"stream_name":"stdout","time":39.397403016,"data":"   /kaggle/input/datasets/cptadityavyas/invisiphish-training-package/ml\n"}
+,{"stream_name":"stdout","time":39.397406472,"data":"   /kaggle/input/datasets/cptadityavyas/invisiphish-training-package/scripts\n"}
+,{"stream_name":"stdout","time":39.397409912,"data":"   /kaggle/input/datasets/cptadityavyas/invisiphish-training-package/src\n"}
+,{"stream_name":"stdout","time":39.397413341,"data":"   /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset\n"}
+,{"stream_name":"stdout","time":39.39741666,"data":"   /kaggle/input/datasets/taruntiwarihp/phishing-site-urls\n"}
+,{"stream_name":"stdout","time":39.397420011,"data":"   /kaggle/input/datasets/uciml/sms-spam-collection-dataset\n"}
+,{"stream_name":"stdout","time":40.553663470000004,"data":"\n"}
+,{"stream_name":"stdout","time":40.55370395,"data":"resolved: {'phishing_emails': '/kaggle/input/datasets/naserabdullahalam/phishing-email-dataset', 'package': '/kaggle/input/datasets/cptadityavyas/invisiphish-training-package', 'sms': '/kaggle/input/datasets/uciml/sms-spam-collection-dataset'}\n"}
+,{"stream_name":"stdout","time":44.838663174,"data":"copied training package into /kaggle/working/repo\n"}
+,{"stream_name":"stdout","time":44.838690139,"data":"[beat] inputs located: ['package', 'phishing_emails', 'sms']\n"}
+,{"stream_name":"stdout","time":83.591871057,"data":"  rows= 549346  phishing= 156422 (28.5%)  \u003c- /kaggle/input/datasets/taruntiwarihp/phishing-site-urls/phishing_site_urls.csv\n"}
+,{"stream_name":"stdout","time":83.591901636,"data":"  rows= 549346  phishing= 156422 (28.5%)  \u003c- /kaggle/input/datasets/taruntiwarihp/phishing-site-urls/phishing_site_urls.csv\n"}
+,{"stream_name":"stdout","time":83.591907086,"data":"  rows=  82485  phishing=  42890 (52.0%)  \u003c- /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/phishing_email.csv\n"}
+,{"stream_name":"stdout","time":83.591911662,"data":"  rows=   5572  phishing=    747 (13.4%)  \u003c- /kaggle/input/datasets/uciml/sms-spam-collection-dataset/spam.csv\n"}
+,{"stream_name":"stdout","time":83.591916267,"data":"[beat] corpora inspected: [(549346, '/kaggle/input/datasets/taruntiwarihp/phishing-site-urls/phishing_site_urls.csv'), (82485, '/kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/phishing_email.csv'), (549346, '/kaggle/input/datasets/taruntiwarihp/phishing-site-urls/phishing_site_urls.csv'), (5572, '/kaggle/input/datasets/uciml/sms-spam-collection-dataset/spam.csv')]\n"}
+,{"stream_name":"stdout","time":83.620755384,"data":"[beat] selected corpora: ['package', 'phishing_emails', 'sms']\n"}
+,{"stream_name":"stdout","time":83.634736289,"data":"\u003e\u003e\u003e python ml/prepare_dataset.py --data /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset --output /kaggle/working/repo/ml/datasets/phishing_emails.csv --file phishing_email.csv\n"}
+,{"stream_name":"stdout","time":103.076862245,"data":"candidates:\n"}
+,{"stream_name":"stdout","time":103.076905785,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/CEAS_08.csv  rows=39154\n"}
+,{"stream_name":"stdout","time":103.076911251,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/Enron.csv  rows=29767\n"}
+,{"stream_name":"stdout","time":103.076914942,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/Ling.csv  rows=2859\n"}
+,{"stream_name":"stdout","time":103.076918555,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/Nazario.csv  rows=1563\n"}
+,{"stream_name":"stdout","time":103.076922045,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/Nigerian_Fraud.csv  rows=3331\n"}
+,{"stream_name":"stdout","time":103.076925645,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/SpamAssasin.csv  rows=5807\n"}
+,{"stream_name":"stdout","time":103.076929765,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/phishing_email.csv  rows=82485\n"}
+,{"stream_name":"stdout","time":103.076933857,"data":"source : /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/phishing_email.csv\n"}
+,{"stream_name":"stdout","time":103.076937662,"data":"rows   : 82485\n"}
+,{"stream_name":"stdout","time":103.076951571,"data":"phishing: 42890 (52.0%)\n"}
+,{"stream_name":"stdout","time":103.076955373,"data":"written: /kaggle/working/repo/ml/datasets/phishing_emails.csv\n"}
+,{"stream_name":"stdout","time":103.279405631,"data":"candidates:\n"}
+,{"stream_name":"stdout","time":103.279449368,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/CEAS_08.csv  rows=39154\n"}
+,{"stream_name":"stdout","time":103.279454623,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/Enron.csv  rows=29767\n"}
+,{"stream_name":"stdout","time":103.279458133,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/Ling.csv  rows=2859\n"}
+,{"stream_name":"stdout","time":103.27946331,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/Nazario.csv  rows=1563\n"}
+,{"stream_name":"stdout","time":103.279470391,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/Nigerian_Fraud.csv  rows=3331\n"}
+,{"stream_name":"stdout","time":103.279473048,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/SpamAssasin.csv  rows=5807\n"}
+,{"stream_name":"stdout","time":103.279475456,"data":"  /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/phishing_email.csv  rows=82485\n"}
+,{"stream_name":"stdout","time":103.279477923,"data":"source : /kaggle/input/datasets/naserabdullahalam/phishing-email-dataset/phishing_email.csv\n"}
+,{"stream_name":"stdout","time":103.27948036,"data":"rows   : 82485\n"}
+,{"stream_name":"stdout","time":103.27948254,"data":"phishing: 42890 (52.0%)\n"}
+,{"stream_name":"stdout","time":103.279484736,"data":"written: /kaggle/working/repo/ml/datasets/phishing_emails.csv\n"}
+,{"stream_name":"stdout","time":106.597642063,"data":"\u003e\u003e\u003e python ml/prepare_dataset.py --data /kaggle/input/datasets/uciml/sms-spam-collection-dataset --output /kaggle/working/repo/ml/datasets/sms_spam.csv\n"}
+,{"stream_name":"stdout","time":116.523496185,"data":"candidates:\n"}
+,{"stream_name":"stdout","time":116.523527179,"data":"  /kaggle/input/datasets/uciml/sms-spam-collection-dataset/spam.csv  rows=5572\n"}
+,{"stream_name":"stdout","time":116.523532208,"data":"source : /kaggle/input/datasets/uciml/sms-spam-collection-dataset/spam.csv\n"}
+,{"stream_name":"stdout","time":116.52353630100001,"data":"rows   : 5572\n"}
+,{"stream_name":"stdout","time":116.523540749,"data":"phishing: 747 (13.4%)\n"}
+,{"stream_name":"stdout","time":116.523552247,"data":"written: /kaggle/working/repo/ml/datasets/sms_spam.csv\n"}
+,{"stream_name":"stdout","time":116.730560246,"data":"candidates:\n"}
+,{"stream_name":"stdout","time":116.730587078,"data":"  /kaggle/input/datasets/uciml/sms-spam-collection-dataset/spam.csv  rows=5572\n"}
+,{"stream_name":"stdout","time":116.73059180999999,"data":"source : /kaggle/input/datasets/uciml/sms-spam-collection-dataset/spam.csv\n"}
+,{"stream_name":"stdout","time":116.730595463,"data":"rows   : 5572\n"}
+,{"stream_name":"stdout","time":116.730598835,"data":"phishing: 747 (13.4%)\n"}
+,{"stream_name":"stdout","time":116.730602286,"data":"written: /kaggle/working/repo/ml/datasets/sms_spam.csv\n"}
+,{"stream_name":"stdout","time":118.308561339,"data":"\n"}
+,{"stream_name":"stdout","time":118.308589973,"data":"phishing csv: /kaggle/working/repo/ml/datasets/phishing_emails.csv\n"}
+,{"stream_name":"stdout","time":118.308594727,"data":"sms csv     : /kaggle/working/repo/ml/datasets/sms_spam.csv\n"}
+,{"stream_name":"stdout","time":118.308597977,"data":"[beat] corpora prepared\n"}
+,{"stream_name":"stdout","time":118.328484589,"data":"\u003e\u003e\u003e python ml/train_distilbert.py --data /kaggle/working/repo/ml/datasets/phishing_emails.csv --output-dir /kaggle/working/models --seeds 13,42,77 --epochs 6 --batch-size 16 --max-rows 25000 --learning-rate 3e-5 \n"}
+,{"stream_name":"stdout","time":118.328504683,"data":"\n"}
+,{"stream_name":"stdout","time":118.356744464,"data":"[beat] training started: /kaggle/working/repo/ml/datasets/phishing_emails.csv\n"}
+,{"stream_name":"stdout","time":129.694230782,"data":"dataset=phishing_emails.csv (capped at 25000 messages) messages=25000 phishing=12500 (50.0%)\n"}
+,{"stream_name":"stdout","time":129.73056533,"data":"[seed 13] train=20000 test=5000\n"}
+,{"stream_name":"stdout","time":129.896309088,"data":"dataset=phishing_emails.csv (capped at 25000 messages) messages=25000 phishing=12500 (50.0%)\n"}
+,{"stream_name":"stdout","time":129.896340037,"data":"[seed 13] train=20000 test=5000\n"}
+,{"stream_name":"stderr","time":132.041596805,"data":"Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n"}
+,{"stream_name":"stderr","time":132.041625037,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":132.041712658,"data":"[seed 13] device=cuda\n"}
+,{"stream_name":"stderr","time":132.244600345,"data":"Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n"}
+,{"stream_name":"stderr","time":132.244633223,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":132.244637978,"data":"\n"}
+,{"stream_name":"stderr","time":132.244641502,"data":"Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n"}
+,{"stream_name":"stderr","time":132.24464554,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":132.245533683,"data":"[seed 13] device=cuda\n"}
+,{"stream_name":"stderr","time":135.383258376,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":135.383320605,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":135.585942447,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":135.5859767,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":135.585981103,"data":"\n"}
+,{"stream_name":"stderr","time":135.58598443,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":135.585988311,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":339.398461819,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":339.398524953,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":339.604225819,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":339.604268762,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":339.604276214,"data":"\n"}
+,{"stream_name":"stderr","time":339.604281387,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":339.604286691,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":545.397546427,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":545.397588869,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":545.604633987,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":545.604661819,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":545.604695088,"data":"\n"}
+,{"stream_name":"stderr","time":545.604700988,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":545.604706536,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":750.110814269,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":750.11086464,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":750.316179527,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":750.316211993,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":750.316216365,"data":"\n"}
+,{"stream_name":"stderr","time":750.316219725,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":750.31622365,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":954.886451878,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":954.886499911,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":955.091957458,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":955.09198645,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":955.091991994,"data":"\n"}
+,{"stream_name":"stderr","time":955.091996498,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":955.092001813,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1161.443355208,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1161.443410033,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1161.649718446,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1161.649748408,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1161.649753547,"data":"\n"}
+,{"stream_name":"stderr","time":1161.649757776,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1161.649762613,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1367.771380582,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1367.771425597,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1367.979783786,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1367.979820896,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1367.97982974,"data":"\n"}
+,{"stream_name":"stderr","time":1367.979832469,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1367.979851187,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stdout","time":1384.383561985,"data":"{'loss': 0.1994, 'grad_norm': 4.693032264709473, 'learning_rate': 2.7786666666666666e-05, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":1384.383612198,"data":"{'eval_loss': 0.0653354674577713, 'eval_accuracy': 0.9778, 'eval_precision': 0.9776089564174331, 'eval_recall': 0.978, 'eval_f1': 0.9778044391121775, 'eval_roc_auc': 0.9977569600000001, 'eval_runtime': 16.9583, 'eval_samples_per_second': 294.841, 'eval_steps_per_second': 2.359, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":1384.383619658,"data":"{'loss': 0.0406, 'grad_norm': 0.027032867074012756, 'learning_rate': 2.2231111111111114e-05, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":1384.383624012,"data":"{'eval_loss': 0.06845615804195404, 'eval_accuracy': 0.9812, 'eval_precision': 0.9910204081632653, 'eval_recall': 0.9712, 'eval_f1': 0.981010101010101, 'eval_roc_auc': 0.9987404000000001, 'eval_runtime': 16.7997, 'eval_samples_per_second': 297.624, 'eval_steps_per_second': 2.381, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":1384.383628933,"data":"{'loss': 0.0107, 'grad_norm': 0.09679575264453888, 'learning_rate': 1.6675555555555554e-05, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":1384.383633255,"data":"{'eval_loss': 0.06511562317609787, 'eval_accuracy': 0.986, 'eval_precision': 0.9879518072289156, 'eval_recall': 0.984, 'eval_f1': 0.9859719438877755, 'eval_roc_auc': 0.9988205600000001, 'eval_runtime': 16.88, 'eval_samples_per_second': 296.208, 'eval_steps_per_second': 2.37, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":1384.38363804,"data":"{'loss': 0.0023, 'grad_norm': 0.0016160639934241772, 'learning_rate': 1.112e-05, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":1384.383641585,"data":"{'eval_loss': 0.07667906582355499, 'eval_accuracy': 0.9866, 'eval_precision': 0.9915151515151515, 'eval_recall': 0.9816, 'eval_f1': 0.986532663316583, 'eval_roc_auc': 0.9991172, 'eval_runtime': 16.9659, 'eval_samples_per_second': 294.708, 'eval_steps_per_second': 2.358, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":1384.383646583,"data":"{'loss': 0.0007, 'grad_norm': 0.0009035620023496449, 'learning_rate': 5.5644444444444444e-06, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":1384.383650153,"data":"{'eval_loss': 0.07635828852653503, 'eval_accuracy': 0.9882, 'eval_precision': 0.9891783567134268, 'eval_recall': 0.9872, 'eval_f1': 0.9881881881881882, 'eval_roc_auc': 0.9989021599999999, 'eval_runtime': 17.4821, 'eval_samples_per_second': 286.006, 'eval_steps_per_second': 2.288, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":1384.38365532,"data":"{'loss': 0.0005, 'grad_norm': 0.006329755764454603, 'learning_rate': 8.888888888888889e-09, 'epoch': 6.0}\n"}
+,{"stream_name":"stdout","time":1384.383658815,"data":"{'eval_loss': 0.07605807483196259, 'eval_accuracy': 0.9876, 'eval_precision': 0.9887730553327987, 'eval_recall': 0.9864, 'eval_f1': 0.987585102122547, 'eval_roc_auc': 0.9990069599999999, 'eval_runtime': 16.8992, 'eval_samples_per_second': 295.873, 'eval_steps_per_second': 2.367, 'epoch': 6.0}\n"}
+,{"stream_name":"stdout","time":1384.383662981,"data":"{'train_runtime': 1234.6507, 'train_samples_per_second': 97.193, 'train_steps_per_second': 3.037, 'train_loss': 0.04236148957411448, 'epoch': 6.0}\n"}
+,{"stream_name":"stdout","time":1384.383677602,"data":"{'eval_loss': 0.07635828852653503, 'eval_accuracy': 0.9882, 'eval_precision': 0.9891783567134268, 'eval_recall': 0.9872, 'eval_f1': 0.9881881881881882, 'eval_roc_auc': 0.9989021599999999, 'eval_runtime': 16.9276, 'eval_samples_per_second': 295.375, 'eval_steps_per_second': 2.363, 'epoch': 6.0}\n"}
+,{"stream_name":"stdout","time":1384.383681685,"data":"[seed 13] {\"eval_loss\": 0.0764, \"eval_accuracy\": 0.9882, \"eval_precision\": 0.9892, \"eval_recall\": 0.9872, \"eval_f1\": 0.9882, \"eval_roc_auc\": 0.9989, \"eval_runtime\": 16.9276, \"eval_samples_per_second\": 295.375, \"eval_steps_per_second\": 2.363, \"epoch\": 6.0}\n"}
+,{"stream_name":"stdout","time":1384.586071665,"data":"{'loss': 0.1994, 'grad_norm': 4.693032264709473, 'learning_rate': 2.7786666666666666e-05, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":1384.586096262,"data":"{'eval_loss': 0.0653354674577713, 'eval_accuracy': 0.9778, 'eval_precision': 0.9776089564174331, 'eval_recall': 0.978, 'eval_f1': 0.9778044391121775, 'eval_roc_auc': 0.9977569600000001, 'eval_runtime': 16.9583, 'eval_samples_per_second': 294.841, 'eval_steps_per_second': 2.359, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":1384.586102043,"data":"{'loss': 0.0406, 'grad_norm': 0.027032867074012756, 'learning_rate': 2.2231111111111114e-05, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":1384.586106273,"data":"{'eval_loss': 0.06845615804195404, 'eval_accuracy': 0.9812, 'eval_precision': 0.9910204081632653, 'eval_recall': 0.9712, 'eval_f1': 0.981010101010101, 'eval_roc_auc': 0.9987404000000001, 'eval_runtime': 16.7997, 'eval_samples_per_second': 297.624, 'eval_steps_per_second': 2.381, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":1384.586110311,"data":"{'loss': 0.0107, 'grad_norm': 0.09679575264453888, 'learning_rate': 1.6675555555555554e-05, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":1384.586113907,"data":"{'eval_loss': 0.06511562317609787, 'eval_accuracy': 0.986, 'eval_precision': 0.9879518072289156, 'eval_recall': 0.984, 'eval_f1': 0.9859719438877755, 'eval_roc_auc': 0.9988205600000001, 'eval_runtime': 16.88, 'eval_samples_per_second': 296.208, 'eval_steps_per_second': 2.37, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":1384.586117975,"data":"{'loss': 0.0023, 'grad_norm': 0.0016160639934241772, 'learning_rate': 1.112e-05, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":1384.586121622,"data":"{'eval_loss': 0.07667906582355499, 'eval_accuracy': 0.9866, 'eval_precision': 0.9915151515151515, 'eval_recall': 0.9816, 'eval_f1': 0.986532663316583, 'eval_roc_auc': 0.9991172, 'eval_runtime': 16.9659, 'eval_samples_per_second': 294.708, 'eval_steps_per_second': 2.358, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":1384.586126973,"data":"{'loss': 0.0007, 'grad_norm': 0.0009035620023496449, 'learning_rate': 5.5644444444444444e-06, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":1384.58613492,"data":"{'eval_loss': 0.07635828852653503, 'eval_accuracy': 0.9882, 'eval_precision': 0.9891783567134268, 'eval_recall': 0.9872, 'eval_f1': 0.9881881881881882, 'eval_roc_auc': 0.9989021599999999, 'eval_runtime': 17.4821, 'eval_samples_per_second': 286.006, 'eval_steps_per_second': 2.288, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":1384.586139251,"data":"{'loss': 0.0005, 'grad_norm': 0.006329755764454603, 'learning_rate': 8.888888888888889e-09, 'epoch': 6.0}\n"}
+,{"stream_name":"stdout","time":1384.586141701,"data":"{'eval_loss': 0.07605807483196259, 'eval_accuracy': 0.9876, 'eval_precision': 0.9887730553327987, 'eval_recall': 0.9864, 'eval_f1': 0.987585102122547, 'eval_roc_auc': 0.9990069599999999, 'eval_runtime': 16.8992, 'eval_samples_per_second': 295.873, 'eval_steps_per_second': 2.367, 'epoch': 6.0}\n"}
+,{"stream_name":"stdout","time":1384.586144361,"data":"{'train_runtime': 1234.6507, 'train_samples_per_second': 97.193, 'train_steps_per_second': 3.037, 'train_loss': 0.04236148957411448, 'epoch': 6.0}\n"}
+,{"stream_name":"stdout","time":1384.586172799,"data":"{'eval_loss': 0.07635828852653503, 'eval_accuracy': 0.9882, 'eval_precision': 0.9891783567134268, 'eval_recall': 0.9872, 'eval_f1': 0.9881881881881882, 'eval_roc_auc': 0.9989021599999999, 'eval_runtime': 16.9276, 'eval_samples_per_second': 295.375, 'eval_steps_per_second': 2.363, 'epoch': 6.0}\n"}
+,{"stream_name":"stdout","time":1384.586175655,"data":"[seed 13] {\"eval_loss\": 0.0764, \"eval_accuracy\": 0.9882, \"eval_precision\": 0.9892, \"eval_recall\": 0.9872, \"eval_f1\": 0.9882, \"eval_roc_auc\": 0.9989, \"eval_runtime\": 16.9276, \"eval_samples_per_second\": 295.375, \"eval_steps_per_second\": 2.363, \"epoch\": 6.0}\n"}
+,{"stream_name":"stderr","time":1384.965748404,"data":"/kaggle/working/repo/ml/train_distilbert.py:338: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html\n"}
+,{"stream_name":"stderr","time":1384.965780672,"data":"  torch.onnx.export(\n"}
+,{"stream_name":"stderr","time":1385.038829247,"data":"/usr/local/lib/python3.13/dist-packages/transformers/modeling_attn_mask_utils.py:196: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.\n"}
+,{"stream_name":"stderr","time":1385.038851024,"data":"  inverted_mask = torch.tensor(1.0, dtype=dtype) - expanded_mask\n"}
+,{"stream_name":"stderr","time":1385.168658137,"data":"/kaggle/working/repo/ml/train_distilbert.py:338: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html\n"}
+,{"stream_name":"stderr","time":1385.168685527,"data":"  torch.onnx.export(\n"}
+,{"stream_name":"stderr","time":1385.168690014,"data":"/usr/local/lib/python3.13/dist-packages/transformers/modeling_attn_mask_utils.py:196: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.\n"}
+,{"stream_name":"stderr","time":1385.168694952,"data":"  inverted_mask = torch.tensor(1.0, dtype=dtype) - expanded_mask\n"}
+,{"stream_name":"stderr","time":1385.168698404,"data":"\n"}
+,{"stream_name":"stderr","time":1385.168701528,"data":"/kaggle/working/repo/ml/train_distilbert.py:338: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html\n"}
+,{"stream_name":"stderr","time":1385.168705892,"data":"  torch.onnx.export(\n"}
+,{"stream_name":"stderr","time":1385.168709226,"data":"/usr/local/lib/python3.13/dist-packages/transformers/modeling_attn_mask_utils.py:196: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.\n"}
+,{"stream_name":"stderr","time":1385.168725936,"data":"  inverted_mask = torch.tensor(1.0, dtype=dtype) - expanded_mask\n"}
+,{"stream_name":"stdout","time":1388.789032278,"data":"[seed 42] train=20000 test=5000\n"}
+,{"stream_name":"stdout","time":1388.991426618,"data":"[seed 42] train=20000 test=5000\n"}
+,{"stream_name":"stderr","time":1389.044386537,"data":"Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n"}
+,{"stream_name":"stderr","time":1389.044412266,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":1389.045108106,"data":"[seed 42] device=cuda\n"}
+,{"stream_name":"stderr","time":1389.247783958,"data":"Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n"}
+,{"stream_name":"stderr","time":1389.247815381,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":1389.2478203,"data":"\n"}
+,{"stream_name":"stderr","time":1389.247824743,"data":"Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n"}
+,{"stream_name":"stderr","time":1389.24782889,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":1389.24861994,"data":"[seed 42] device=cuda\n"}
+,{"stream_name":"stderr","time":1389.731943569,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1389.731973347,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1389.933999401,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1389.934031865,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1389.934036065,"data":"\n"}
+,{"stream_name":"stderr","time":1389.934039402,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1389.934043682,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1595.309024657,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1595.309063888,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1595.514801006,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1595.514839,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1595.514843457,"data":"\n"}
+,{"stream_name":"stderr","time":1595.514846788,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1595.514850736,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1800.857287575,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1800.857323559,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1801.063219503,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1801.063241881,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":1801.063247066,"data":"\n"}
+,{"stream_name":"stderr","time":1801.063251344,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":1801.063268391,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2006.251121266,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2006.251157785,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2006.457641045,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2006.457665116,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2006.457670359,"data":"\n"}
+,{"stream_name":"stderr","time":2006.457691635,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2006.457697235,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2211.454155971,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2211.454197339,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2211.660225687,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2211.660289466,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2211.660312781,"data":"\n"}
+,{"stream_name":"stderr","time":2211.660317784,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2211.660322285,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2417.320697584,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2417.320742228,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2417.526533506,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2417.526555528,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2417.526561137,"data":"\n"}
+,{"stream_name":"stderr","time":2417.526565534,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2417.526570211,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stdout","time":2433.985854817,"data":"{'loss': 0.194, 'grad_norm': 5.883432388305664, 'learning_rate': 2.7786666666666666e-05, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":2433.985887157,"data":"{'eval_loss': 0.07554614543914795, 'eval_accuracy': 0.9764, 'eval_precision': 0.9845402766476811, 'eval_recall': 0.968, 'eval_f1': 0.9762000806776926, 'eval_roc_auc': 0.9972460799999998, 'eval_runtime': 17.0426, 'eval_samples_per_second': 293.383, 'eval_steps_per_second': 2.347, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":2433.985893711,"data":"{'loss': 0.044, 'grad_norm': 6.709268093109131, 'learning_rate': 2.2231111111111114e-05, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":2433.985898344,"data":"{'eval_loss': 0.057372719049453735, 'eval_accuracy': 0.9864, 'eval_precision': 0.9794952681388013, 'eval_recall': 0.9936, 'eval_f1': 0.9864972200158856, 'eval_roc_auc': 0.99905312, 'eval_runtime': 16.9827, 'eval_samples_per_second': 294.417, 'eval_steps_per_second': 2.355, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":2433.985903471,"data":"{'loss': 0.0142, 'grad_norm': 0.013863921165466309, 'learning_rate': 1.6675555555555554e-05, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":2433.9859078,"data":"{'eval_loss': 0.05511125549674034, 'eval_accuracy': 0.9866, 'eval_precision': 0.988358089120835, 'eval_recall': 0.9848, 'eval_f1': 0.9865758365057102, 'eval_roc_auc': 0.9990332800000001, 'eval_runtime': 16.9897, 'eval_samples_per_second': 294.296, 'eval_steps_per_second': 2.354, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":2433.985912245,"data":"{'loss': 0.0031, 'grad_norm': 0.14552448689937592, 'learning_rate': 1.112e-05, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":2433.985916504,"data":"{'eval_loss': 0.09150709956884384, 'eval_accuracy': 0.9848, 'eval_precision': 0.9930838079739626, 'eval_recall': 0.9764, 'eval_f1': 0.9846712384025816, 'eval_roc_auc': 0.9989353600000002, 'eval_runtime': 16.9151, 'eval_samples_per_second': 295.594, 'eval_steps_per_second': 2.365, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":2433.985921265,"data":"{'loss': 0.0008, 'grad_norm': 0.002991674467921257, 'learning_rate': 5.5644444444444444e-06, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":2433.985950973,"data":"{'eval_loss': 0.08606954663991928, 'eval_accuracy': 0.986, 'eval_precision': 0.9903147699757869, 'eval_recall': 0.9816, 'eval_f1': 0.9859381277621535, 'eval_roc_auc': 0.9990132, 'eval_runtime': 17.0983, 'eval_samples_per_second': 292.427, 'eval_steps_per_second': 2.339, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":2433.985956808,"data":"{'train_runtime': 1027.3123, 'train_samples_per_second': 116.81, 'train_steps_per_second': 3.65, 'train_loss': 0.05122102924346924, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":2433.985960351,"data":"{'eval_loss': 0.05511125549674034, 'eval_accuracy': 0.9866, 'eval_precision': 0.988358089120835, 'eval_recall': 0.9848, 'eval_f1': 0.9865758365057102, 'eval_roc_auc': 0.9990332800000001, 'eval_runtime': 17.0228, 'eval_samples_per_second': 293.723, 'eval_steps_per_second': 2.35, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":2433.985964142,"data":"[seed 42] {\"eval_loss\": 0.0551, \"eval_accuracy\": 0.9866, \"eval_precision\": 0.9884, \"eval_recall\": 0.9848, \"eval_f1\": 0.9866, \"eval_roc_auc\": 0.999, \"eval_runtime\": 17.0228, \"eval_samples_per_second\": 293.723, \"eval_steps_per_second\": 2.35, \"epoch\": 5.0}\n"}
+,{"stream_name":"stdout","time":2434.18915912,"data":"{'loss': 0.194, 'grad_norm': 5.883432388305664, 'learning_rate': 2.7786666666666666e-05, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":2434.189184344,"data":"{'eval_loss': 0.07554614543914795, 'eval_accuracy': 0.9764, 'eval_precision': 0.9845402766476811, 'eval_recall': 0.968, 'eval_f1': 0.9762000806776926, 'eval_roc_auc': 0.9972460799999998, 'eval_runtime': 17.0426, 'eval_samples_per_second': 293.383, 'eval_steps_per_second': 2.347, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":2434.189189742,"data":"{'loss': 0.044, 'grad_norm': 6.709268093109131, 'learning_rate': 2.2231111111111114e-05, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":2434.189193551,"data":"{'eval_loss': 0.057372719049453735, 'eval_accuracy': 0.9864, 'eval_precision': 0.9794952681388013, 'eval_recall': 0.9936, 'eval_f1': 0.9864972200158856, 'eval_roc_auc': 0.99905312, 'eval_runtime': 16.9827, 'eval_samples_per_second': 294.417, 'eval_steps_per_second': 2.355, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":2434.189199388,"data":"{'loss': 0.0142, 'grad_norm': 0.013863921165466309, 'learning_rate': 1.6675555555555554e-05, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":2434.189206859,"data":"{'eval_loss': 0.05511125549674034, 'eval_accuracy': 0.9866, 'eval_precision': 0.988358089120835, 'eval_recall': 0.9848, 'eval_f1': 0.9865758365057102, 'eval_roc_auc': 0.9990332800000001, 'eval_runtime': 16.9897, 'eval_samples_per_second': 294.296, 'eval_steps_per_second': 2.354, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":2434.189209896,"data":"{'loss': 0.0031, 'grad_norm': 0.14552448689937592, 'learning_rate': 1.112e-05, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":2434.189225769,"data":"{'eval_loss': 0.09150709956884384, 'eval_accuracy': 0.9848, 'eval_precision': 0.9930838079739626, 'eval_recall': 0.9764, 'eval_f1': 0.9846712384025816, 'eval_roc_auc': 0.9989353600000002, 'eval_runtime': 16.9151, 'eval_samples_per_second': 295.594, 'eval_steps_per_second': 2.365, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":2434.189230441,"data":"{'loss': 0.0008, 'grad_norm': 0.002991674467921257, 'learning_rate': 5.5644444444444444e-06, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":2434.189234654,"data":"{'eval_loss': 0.08606954663991928, 'eval_accuracy': 0.986, 'eval_precision': 0.9903147699757869, 'eval_recall': 0.9816, 'eval_f1': 0.9859381277621535, 'eval_roc_auc': 0.9990132, 'eval_runtime': 17.0983, 'eval_samples_per_second': 292.427, 'eval_steps_per_second': 2.339, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":2434.189240422,"data":"{'train_runtime': 1027.3123, 'train_samples_per_second': 116.81, 'train_steps_per_second': 3.65, 'train_loss': 0.05122102924346924, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":2434.189254396,"data":"{'eval_loss': 0.05511125549674034, 'eval_accuracy': 0.9866, 'eval_precision': 0.988358089120835, 'eval_recall': 0.9848, 'eval_f1': 0.9865758365057102, 'eval_roc_auc': 0.9990332800000001, 'eval_runtime': 17.0228, 'eval_samples_per_second': 293.723, 'eval_steps_per_second': 2.35, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":2434.189259176,"data":"[seed 42] {\"eval_loss\": 0.0551, \"eval_accuracy\": 0.9866, \"eval_precision\": 0.9884, \"eval_recall\": 0.9848, \"eval_f1\": 0.9866, \"eval_roc_auc\": 0.999, \"eval_runtime\": 17.0228, \"eval_samples_per_second\": 293.723, \"eval_steps_per_second\": 2.35, \"epoch\": 5.0}\n"}
+,{"stream_name":"stderr","time":2434.482397641,"data":"/kaggle/working/repo/ml/train_distilbert.py:338: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html\n"}
+,{"stream_name":"stderr","time":2434.482428141,"data":"  torch.onnx.export(\n"}
+,{"stream_name":"stderr","time":2434.490034751,"data":"/usr/local/lib/python3.13/dist-packages/transformers/modeling_attn_mask_utils.py:196: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.\n"}
+,{"stream_name":"stderr","time":2434.490057744,"data":"  inverted_mask = torch.tensor(1.0, dtype=dtype) - expanded_mask\n"}
+,{"stream_name":"stderr","time":2434.685188873,"data":"/kaggle/working/repo/ml/train_distilbert.py:338: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html\n"}
+,{"stream_name":"stderr","time":2434.685219597,"data":"  torch.onnx.export(\n"}
+,{"stream_name":"stderr","time":2434.685245792,"data":"/usr/local/lib/python3.13/dist-packages/transformers/modeling_attn_mask_utils.py:196: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.\n"}
+,{"stream_name":"stderr","time":2434.685251857,"data":"  inverted_mask = torch.tensor(1.0, dtype=dtype) - expanded_mask\n"}
+,{"stream_name":"stderr","time":2434.685267715,"data":"\n"}
+,{"stream_name":"stderr","time":2434.685271873,"data":"/kaggle/working/repo/ml/train_distilbert.py:338: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html\n"}
+,{"stream_name":"stderr","time":2434.685277156,"data":"  torch.onnx.export(\n"}
+,{"stream_name":"stderr","time":2434.685282605,"data":"/usr/local/lib/python3.13/dist-packages/transformers/modeling_attn_mask_utils.py:196: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.\n"}
+,{"stream_name":"stderr","time":2434.685307795,"data":"  inverted_mask = torch.tensor(1.0, dtype=dtype) - expanded_mask\n"}
+,{"stream_name":"stdout","time":2437.135762472,"data":"[seed 77] train=20000 test=5000\n"}
+,{"stream_name":"stdout","time":2437.33824822,"data":"[seed 77] train=20000 test=5000\n"}
+,{"stream_name":"stderr","time":2437.368362263,"data":"Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n"}
+,{"stream_name":"stderr","time":2437.368387477,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":2437.36891855,"data":"[seed 77] device=cuda\n"}
+,{"stream_name":"stderr","time":2437.571593935,"data":"Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n"}
+,{"stream_name":"stderr","time":2437.571627091,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stderr","time":2437.571651774,"data":"\n"}
+,{"stream_name":"stderr","time":2437.571656226,"data":"Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n"}
+,{"stream_name":"stderr","time":2437.571660529,"data":"You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"}
+,{"stream_name":"stdout","time":2437.572555184,"data":"[seed 77] device=cuda\n"}
+,{"stream_name":"stderr","time":2438.056376221,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2438.056408826,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2438.258538871,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2438.258571289,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2438.258576197,"data":"\n"}
+,{"stream_name":"stderr","time":2438.258579567,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2438.258583455,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2643.677129099,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2643.677173039,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2643.883367911,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2643.883404844,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2643.883410105,"data":"\n"}
+,{"stream_name":"stderr","time":2643.883414019,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2643.883418361,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2849.086794419,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2849.086832533,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2849.295017717,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2849.295046417,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":2849.29505182,"data":"\n"}
+,{"stream_name":"stderr","time":2849.295056228,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":2849.295062947,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":3054.348365097,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3054.348402768,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":3054.554465073,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3054.554490412,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":3054.554495701,"data":"\n"}
+,{"stream_name":"stderr","time":3054.554500426,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3054.554505265,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":3259.608024478,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3259.608067966,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":3259.816296904,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3259.816324652,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":3259.816339886,"data":"\n"}
+,{"stream_name":"stderr","time":3259.816345066,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3259.816348679,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":3464.728711204,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3464.728765299,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":3464.935205007,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3464.935228553,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stderr","time":3464.935233798,"data":"\n"}
+,{"stream_name":"stderr","time":3464.935249377,"data":"/usr/local/lib/python3.13/dist-packages/torch/autograd/function.py:596: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.\n"}
+,{"stream_name":"stderr","time":3464.935267579,"data":"  return super().apply(*args, **kwargs)  # type: ignore[misc]\n"}
+,{"stream_name":"stdout","time":3481.271377727,"data":"{'loss': 0.2052, 'grad_norm': 0.9116936922073364, 'learning_rate': 2.7786666666666666e-05, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":3481.271406164,"data":"{'eval_loss': 0.06049681827425957, 'eval_accuracy': 0.981, 'eval_precision': 0.9796569605105704, 'eval_recall': 0.9824, 'eval_f1': 0.9810265628120631, 'eval_roc_auc': 0.9984232, 'eval_runtime': 16.9073, 'eval_samples_per_second': 295.729, 'eval_steps_per_second': 2.366, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":3481.271413864,"data":"{'loss': 0.0428, 'grad_norm': 5.143640041351318, 'learning_rate': 2.2231111111111114e-05, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":3481.271418862,"data":"{'eval_loss': 0.04337480291724205, 'eval_accuracy': 0.9878, 'eval_precision': 0.9895624247290244, 'eval_recall': 0.986, 'eval_f1': 0.9877780004007213, 'eval_roc_auc': 0.99925648, 'eval_runtime': 16.8305, 'eval_samples_per_second': 297.08, 'eval_steps_per_second': 2.377, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":3481.27142424,"data":"{'loss': 0.0108, 'grad_norm': 6.435306072235107, 'learning_rate': 1.6675555555555554e-05, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":3481.271683666,"data":"{'eval_loss': 0.040863823145627975, 'eval_accuracy': 0.991, 'eval_precision': 0.9915899078894673, 'eval_recall': 0.9904, 'eval_f1': 0.9909945967580548, 'eval_roc_auc': 0.9994255999999999, 'eval_runtime': 16.8447, 'eval_samples_per_second': 296.83, 'eval_steps_per_second': 2.375, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":3481.271706552,"data":"{'loss': 0.0044, 'grad_norm': 0.0035354639403522015, 'learning_rate': 1.112e-05, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":3481.271713232,"data":"{'eval_loss': 0.056564588099718094, 'eval_accuracy': 0.9894, 'eval_precision': 0.9841709537000396, 'eval_recall': 0.9948, 'eval_f1': 0.9894569325641536, 'eval_roc_auc': 0.9993084000000001, 'eval_runtime': 16.8575, 'eval_samples_per_second': 296.604, 'eval_steps_per_second': 2.373, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":3481.271719327,"data":"{'loss': 0.0012, 'grad_norm': 0.0011909306049346924, 'learning_rate': 5.5644444444444444e-06, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":3481.271734639,"data":"{'eval_loss': 0.0600501224398613, 'eval_accuracy': 0.9894, 'eval_precision': 0.9845544554455445, 'eval_recall': 0.9944, 'eval_f1': 0.9894527363184079, 'eval_roc_auc': 0.9993772799999999, 'eval_runtime': 16.7731, 'eval_samples_per_second': 298.096, 'eval_steps_per_second': 2.385, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":3481.271739072,"data":"{'train_runtime': 1026.4135, 'train_samples_per_second': 116.912, 'train_steps_per_second': 3.653, 'train_loss': 0.05286936876296997, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":3481.271742702,"data":"{'eval_loss': 0.040863823145627975, 'eval_accuracy': 0.991, 'eval_precision': 0.9915899078894673, 'eval_recall': 0.9904, 'eval_f1': 0.9909945967580548, 'eval_roc_auc': 0.9994255999999999, 'eval_runtime': 16.8755, 'eval_samples_per_second': 296.287, 'eval_steps_per_second': 2.37, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":3481.271746759,"data":"[seed 77] {\"eval_loss\": 0.0409, \"eval_accuracy\": 0.991, \"eval_precision\": 0.9916, \"eval_recall\": 0.9904, \"eval_f1\": 0.991, \"eval_roc_auc\": 0.9994, \"eval_runtime\": 16.8755, \"eval_samples_per_second\": 296.287, \"eval_steps_per_second\": 2.37, \"epoch\": 5.0}\n"}
+,{"stream_name":"stdout","time":3481.473705203,"data":"{'loss': 0.2052, 'grad_norm': 0.9116936922073364, 'learning_rate': 2.7786666666666666e-05, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":3481.473727133,"data":"{'eval_loss': 0.06049681827425957, 'eval_accuracy': 0.981, 'eval_precision': 0.9796569605105704, 'eval_recall': 0.9824, 'eval_f1': 0.9810265628120631, 'eval_roc_auc': 0.9984232, 'eval_runtime': 16.9073, 'eval_samples_per_second': 295.729, 'eval_steps_per_second': 2.366, 'epoch': 1.0}\n"}
+,{"stream_name":"stdout","time":3481.473732703,"data":"{'loss': 0.0428, 'grad_norm': 5.143640041351318, 'learning_rate': 2.2231111111111114e-05, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":3481.473737062,"data":"{'eval_loss': 0.04337480291724205, 'eval_accuracy': 0.9878, 'eval_precision': 0.9895624247290244, 'eval_recall': 0.986, 'eval_f1': 0.9877780004007213, 'eval_roc_auc': 0.99925648, 'eval_runtime': 16.8305, 'eval_samples_per_second': 297.08, 'eval_steps_per_second': 2.377, 'epoch': 2.0}\n"}
+,{"stream_name":"stdout","time":3481.473741937,"data":"{'loss': 0.0108, 'grad_norm': 6.435306072235107, 'learning_rate': 1.6675555555555554e-05, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":3481.473746122,"data":"{'eval_loss': 0.040863823145627975, 'eval_accuracy': 0.991, 'eval_precision': 0.9915899078894673, 'eval_recall': 0.9904, 'eval_f1': 0.9909945967580548, 'eval_roc_auc': 0.9994255999999999, 'eval_runtime': 16.8447, 'eval_samples_per_second': 296.83, 'eval_steps_per_second': 2.375, 'epoch': 3.0}\n"}
+,{"stream_name":"stdout","time":3481.473750859,"data":"{'loss': 0.0044, 'grad_norm': 0.0035354639403522015, 'learning_rate': 1.112e-05, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":3481.473755067,"data":"{'eval_loss': 0.056564588099718094, 'eval_accuracy': 0.9894, 'eval_precision': 0.9841709537000396, 'eval_recall': 0.9948, 'eval_f1': 0.9894569325641536, 'eval_roc_auc': 0.9993084000000001, 'eval_runtime': 16.8575, 'eval_samples_per_second': 296.604, 'eval_steps_per_second': 2.373, 'epoch': 4.0}\n"}
+,{"stream_name":"stdout","time":3481.47375977,"data":"{'loss': 0.0012, 'grad_norm': 0.0011909306049346924, 'learning_rate': 5.5644444444444444e-06, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":3481.473763891,"data":"{'eval_loss': 0.0600501224398613, 'eval_accuracy': 0.9894, 'eval_precision': 0.9845544554455445, 'eval_recall': 0.9944, 'eval_f1': 0.9894527363184079, 'eval_roc_auc': 0.9993772799999999, 'eval_runtime': 16.7731, 'eval_samples_per_second': 298.096, 'eval_steps_per_second': 2.385, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":3481.47376965,"data":"{'train_runtime': 1026.4135, 'train_samples_per_second': 116.912, 'train_steps_per_second': 3.653, 'train_loss': 0.05286936876296997, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":3481.473781304,"data":"{'eval_loss': 0.040863823145627975, 'eval_accuracy': 0.991, 'eval_precision': 0.9915899078894673, 'eval_recall': 0.9904, 'eval_f1': 0.9909945967580548, 'eval_roc_auc': 0.9994255999999999, 'eval_runtime': 16.8755, 'eval_samples_per_second': 296.287, 'eval_steps_per_second': 2.37, 'epoch': 5.0}\n"}
+,{"stream_name":"stdout","time":3481.473786165,"data":"[seed 77] {\"eval_loss\": 0.0409, \"eval_accuracy\": 0.991, \"eval_precision\": 0.9916, \"eval_recall\": 0.9904, \"eval_f1\": 0.991, \"eval_roc_auc\": 0.9994, \"eval_runtime\": 16.8755, \"eval_samples_per_second\": 296.287, \"eval_steps_per_second\": 2.37, \"epoch\": 5.0}\n"}
+,{"stream_name":"stderr","time":3481.755477408,"data":"/kaggle/working/repo/ml/train_distilbert.py:338: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html\n"}
+,{"stream_name":"stderr","time":3481.755503527,"data":"  torch.onnx.export(\n"}
+,{"stream_name":"stderr","time":3481.763541811,"data":"/usr/local/lib/python3.13/dist-packages/transformers/modeling_attn_mask_utils.py:196: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.\n"}
+,{"stream_name":"stderr","time":3481.763563369,"data":"  inverted_mask = torch.tensor(1.0, dtype=dtype) - expanded_mask\n"}
+,{"stream_name":"stderr","time":3481.957731695,"data":"/kaggle/working/repo/ml/train_distilbert.py:338: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html\n"}
+,{"stream_name":"stderr","time":3481.957781097,"data":"  torch.onnx.export(\n"}
+,{"stream_name":"stderr","time":3481.957786655,"data":"/usr/local/lib/python3.13/dist-packages/transformers/modeling_attn_mask_utils.py:196: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.\n"}
+,{"stream_name":"stderr","time":3481.95779159,"data":"  inverted_mask = torch.tensor(1.0, dtype=dtype) - expanded_mask\n"}
+,{"stream_name":"stderr","time":3481.957795438,"data":"\n"}
+,{"stream_name":"stderr","time":3481.957798931,"data":"/kaggle/working/repo/ml/train_distilbert.py:338: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html\n"}
+,{"stream_name":"stderr","time":3481.957803833,"data":"  torch.onnx.export(\n"}
+,{"stream_name":"stderr","time":3481.957808808,"data":"/usr/local/lib/python3.13/dist-packages/transformers/modeling_attn_mask_utils.py:196: TracerWarning: torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables that would be the same every time you call this function. In any other case, this might cause the trace to be incorrect.\n"}
+,{"stream_name":"stderr","time":3481.957832242,"data":"  inverted_mask = torch.tensor(1.0, dtype=dtype) - expanded_mask\n"}
+,{"stream_name":"stdout","time":3484.354075304,"data":"\n"}
+,{"stream_name":"stdout","time":3484.354097851,"data":"=== summary over seeds ===\n"}
+,{"stream_name":"stdout","time":3484.354101747,"data":"  accuracy   0.9886 +/- 0.0022  [0.9882, 0.9866, 0.991]\n"}
+,{"stream_name":"stdout","time":3484.35410497,"data":"  precision  0.9897 +/- 0.0017  [0.9892, 0.9884, 0.9916]\n"}
+,{"stream_name":"stdout","time":3484.354108241,"data":"  recall     0.9875 +/- 0.0028  [0.9872, 0.9848, 0.9904]\n"}
+,{"stream_name":"stdout","time":3484.354111542,"data":"  f1         0.9886 +/- 0.0022  [0.9882, 0.9866, 0.991]\n"}
+,{"stream_name":"stdout","time":3484.354114667,"data":"  roc_auc    0.9991 +/- 0.0003  [0.9989, 0.999, 0.9994]\n"}
+,{"stream_name":"stdout","time":3484.556396493,"data":"\n"}
+,{"stream_name":"stdout","time":3484.556431176,"data":"=== summary over seeds ===\n"}
+,{"stream_name":"stdout","time":3484.556435408,"data":"  accuracy   0.9886 +/- 0.0022  [0.9882, 0.9866, 0.991]\n"}
+,{"stream_name":"stdout","time":3484.556438839,"data":"  precision  0.9897 +/- 0.0017  [0.9892, 0.9884, 0.9916]\n"}
+,{"stream_name":"stdout","time":3484.556442055,"data":"  recall     0.9875 +/- 0.0028  [0.9872, 0.9848, 0.9904]\n"}
+,{"stream_name":"stdout","time":3484.556445201,"data":"  f1         0.9886 +/- 0.0022  [0.9882, 0.9866, 0.991]\n"}
+,{"stream_name":"stdout","time":3484.556448162,"data":"  roc_auc    0.9991 +/- 0.0003  [0.9989, 0.999, 0.9994]\n"}
+,{"stream_name":"stdout","time":3486.548592061,"data":"[beat] training finished\n"}
+,{"stream_name":"stdout","time":3486.748298268,"data":"installed checkpoint into /kaggle/working/repo/public/models/distilbert-phishing\n"}
+,{"stream_name":"stdout","time":3486.748326056,"data":"  onnx/model.onnx  267.9 MB\n"}
+,{"stream_name":"stdout","time":3486.748329354,"data":"\n"}
+,{"stream_name":"stdout","time":3486.748331615,"data":"metric            mean       std   per-seed\n"}
+,{"stream_name":"stdout","time":3486.748333888,"data":"accuracy        0.9886    0.0022   [0.9882, 0.9866, 0.991]\n"}
+,{"stream_name":"stdout","time":3486.748336281,"data":"precision       0.9897    0.0017   [0.9892, 0.9884, 0.9916]\n"}
+,{"stream_name":"stdout","time":3486.748338472,"data":"recall          0.9875    0.0028   [0.9872, 0.9848, 0.9904]\n"}
+,{"stream_name":"stdout","time":3486.748340628,"data":"f1              0.9886    0.0022   [0.9882, 0.9866, 0.991]\n"}
+,{"stream_name":"stdout","time":3486.74834282,"data":"roc_auc         0.9991    0.0003   [0.9989, 0.999, 0.9994]\n"}
+,{"stream_name":"stdout","time":3486.764399688,"data":"[beat] training metrics: {\"accuracy\": {\"mean\": 0.9886, \"std\": 0.0022, \"values\": [0.9882, 0.9866, 0.991]}, \"precision\": {\"mean\": 0.9897, \"std\": 0.0017, \"values\": [0.9892, 0.9884, 0.9916]}, \"recall\": {\"mean\": 0.9875, \"std\": 0.0028, \"values\": [0.9872, 0.9848, 0.9904]}, \"f1\": {\"mean\": 0.9886, \"std\": 0.0022, \"values\": [0.9882, 0.9866, 0.991]}, \"roc_auc\": {\"mean\": 0.9991, \"std\": 0.0003, \"values\": [0.9989, 0.999, 0.9994]}}\n"}
+,{"stream_name":"stdout","time":3486.789690741,"data":"npm ci ...\n"}
+,{"stream_name":"stderr","time":3487.735924117,"data":"npm warn EBADENGINE Unsupported engine {\n"}
+,{"stream_name":"stderr","time":3487.735953726,"data":"npm warn EBADENGINE   package: 'vitest@5.0.5',\n"}
+,{"stream_name":"stderr","time":3487.735958976,"data":"npm warn EBADENGINE   required: { node: '^22.12.0 || ^24.0.0 || \u003e=26.0.0' },\n"}
+,{"stream_name":"stderr","time":3487.735974984,"data":"npm warn EBADENGINE   current: { node: 'v20.19.0', npm: '10.8.2' }\n"}
+,{"stream_name":"stderr","time":3487.735980461,"data":"npm warn EBADENGINE }\n"}
+,{"stream_name":"stderr","time":3487.938405898,"data":"npm warn EBADENGINE Unsupported engine {\n"}
+,{"stream_name":"stderr","time":3487.938433598,"data":"npm warn EBADENGINE   package: 'vitest@5.0.5',\n"}
+,{"stream_name":"stderr","time":3487.938438266,"data":"npm warn EBADENGINE   required: { node: '^22.12.0 || ^24.0.0 || \u003e=26.0.0' },\n"}
+,{"stream_name":"stderr","time":3487.93844281,"data":"npm warn EBADENGINE   current: { node: 'v20.19.0', npm: '10.8.2' }\n"}
+,{"stream_name":"stderr","time":3487.938446704,"data":"npm warn EBADENGINE }\n"}
+,{"stream_name":"stderr","time":3487.938450539,"data":"\n"}
+,{"stream_name":"stderr","time":3487.938454226,"data":"npm warn EBADENGINE Unsupported engine {\n"}
+,{"stream_name":"stderr","time":3487.938457701,"data":"npm warn EBADENGINE   package: 'vitest@5.0.5',\n"}
+,{"stream_name":"stderr","time":3487.938461036,"data":"npm warn EBADENGINE   required: { node: '^22.12.0 || ^24.0.0 || \u003e=26.0.0' },\n"}
+,{"stream_name":"stderr","time":3487.938464518,"data":"npm warn EBADENGINE   current: { node: 'v20.19.0', npm: '10.8.2' }\n"}
+,{"stream_name":"stderr","time":3487.938468091,"data":"npm warn EBADENGINE }\n"}
+,{"stream_name":"stderr","time":3489.57790927,"data":"npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.\n"}
+,{"stream_name":"stderr","time":3489.782333845,"data":"npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.\n"}
+,{"stream_name":"stderr","time":3489.782366082,"data":"\n"}
+,{"stream_name":"stderr","time":3489.782371125,"data":"npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.\n"}
+,{"stream_name":"stdout","time":3499.449649809,"data":"\n"}
+,{"stream_name":"stdout","time":3499.44968725,"data":"added 210 packages in 13s\n"}
+,{"stream_name":"stderr","time":3499.450998752,"data":"npm notice\n"}
+,{"stream_name":"stderr","time":3499.451029516,"data":"npm notice New major version of npm available! 10.8.2 -\u003e 12.2.0\n"}
+,{"stream_name":"stderr","time":3499.45103498,"data":"npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0\n"}
+,{"stream_name":"stderr","time":3499.451045608,"data":"npm notice To update run: npm install -g npm@12.2.0\n"}
+,{"stream_name":"stderr","time":3499.451048984,"data":"npm notice\n"}
+,{"stream_name":"stdout","time":3499.483648336,"data":"\n"}
+,{"stream_name":"stdout","time":3499.483668715,"data":"added 210 packages in 13s\n"}
+,{"stream_name":"stdout","time":3499.483673811,"data":"  skipping ./tsconfig.node.json: no input files in the training package\n"}
+,{"stream_name":"stdout","time":3499.483679012,"data":"  skipping ./tsconfig.server.json: no input files in the training package\n"}
+,{"stream_name":"stdout","time":3499.483683506,"data":"typechecking: ['./tsconfig.app.json', './tsconfig.scripts.json']\n"}
+,{"stream_name":"stderr","time":3499.654005977,"data":"npm notice\n"}
+,{"stream_name":"stderr","time":3499.654031468,"data":"npm notice New major version of npm available! 10.8.2 -\u003e 12.2.0\n"}
+,{"stream_name":"stderr","time":3499.654037491,"data":"npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0\n"}
+,{"stream_name":"stderr","time":3499.654042777,"data":"npm notice To update run: npm install -g npm@12.2.0\n"}
+,{"stream_name":"stderr","time":3499.654047479,"data":"npm notice\n"}
+,{"stream_name":"stderr","time":3499.654062399,"data":"\n"}
+,{"stream_name":"stderr","time":3499.654067282,"data":"npm notice\n"}
+,{"stream_name":"stderr","time":3499.654074949,"data":"npm notice New major version of npm available! 10.8.2 -\u003e 12.2.0\n"}
+,{"stream_name":"stderr","time":3499.654078851,"data":"npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0\n"}
+,{"stream_name":"stderr","time":3499.654081232,"data":"npm notice To update run: npm install -g npm@12.2.0\n"}
+,{"stream_name":"stderr","time":3499.654083483,"data":"npm notice\n"}
+,{"stream_name":"stdout","time":3503.677560694,"data":"typecheck OK\n"}
+,{"stream_name":"stdout","time":3503.677588184,"data":"\n"}
+,{"stream_name":"stdout","time":3503.709685736,"data":"[beat] node dependencies installed\n"}
+,{"stream_name":"stdout","time":3503.734673655,"data":"\n"}
+,{"stream_name":"stdout","time":3503.734706881,"data":"\u003e\u003e\u003e npx tsx scripts/eval.ts --dataset /kaggle/working/repo/ml/datasets/phishing_emails.csv --seeds 13,42,77 --max-eval 5000 --out /kaggle/working/results/evaluation_phishing_emails.json\n"}
+,{"stream_name":"stdout","time":3503.764657148,"data":"[beat] evaluation started: phishing_emails\n"}
+,{"stream_name":"stdout","time":3516.697411051,"data":"Loaded 82485 samples from /kaggle/working/repo/ml/datasets/phishing_emails.csv\n"}
+,{"stream_name":"stdout","time":3516.72539733,"data":"\n"}
+,{"stream_name":"stdout","time":3516.725425832,"data":"=== seed 13: fit=52789 validation=5000/13199 test=5000/16497 ===\n"}
+,{"stream_name":"stdout","time":3516.899964618,"data":"Loaded 82485 samples from /kaggle/working/repo/ml/datasets/phishing_emails.csv\n"}
+,{"stream_name":"stdout","time":3516.900001445,"data":"\n"}
+,{"stream_name":"stdout","time":3516.900005746,"data":"=== seed 13: fit=52789 validation=5000/13199 test=5000/16497 ===\n"}
+,{"stream_name":"stdout","time":3628.855416818,"data":"Mined 1923 discriminative templates from the training split\n"}
+,{"stream_name":"stdout","time":3629.074331814,"data":"Mined 1923 discriminative templates from the training split\n"}
+,{"stream_name":"stdout","time":6906.652046057,"data":"  fitted weights: semantic=0.70  url-intel=0.25  pattern=0.25  intent=0.25\n"}
+,{"stream_name":"stdout","time":6906.86304417,"data":"  fitted weights: semantic=0.70  url-intel=0.25  pattern=0.25  intent=0.25\n"}
+,{"stream_name":"stdout","time":6906.986999427,"data":"  Full hybrid                        acc= 98.94  prec= 99.29  rec= 98.93  F1= 99.11  AUC=0.9912\n"}
+,{"stream_name":"stdout","time":6906.987067044,"data":"  DistilBERT only                    acc= 98.98  prec= 99.23  rec= 99.06  F1= 99.14  AUC=0.9948\n"}
+,{"stream_name":"stdout","time":6906.987074617,"data":"  FP-Growth only                     acc= 58.34  prec= 67.77  rec= 57.53  F1= 62.23  AUC=0.6165\n"}
+,{"stream_name":"stdout","time":6906.987078943,"data":"  URL intelligence only              acc= 40.34  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":6906.98708367,"data":"  Intent only                        acc=  40.5  prec= 68.18  rec=   0.5  F1=     1  AUC=0.5693\n"}
+,{"stream_name":"stdout","time":6906.98708782,"data":"  Hybrid without DistilBERT          acc= 58.88  prec=  74.8  rec= 46.87  F1= 57.63  AUC=0.6232\n"}
+,{"stream_name":"stdout","time":6906.987272951,"data":"  Hybrid without FP-Growth           acc= 98.92  prec= 99.23  rec= 98.96  F1= 99.09  AUC=0.9912\n"}
+,{"stream_name":"stdout","time":6906.98728807,"data":"  Hybrid without URL intelligence    acc= 98.94  prec= 99.29  rec= 98.93  F1= 99.11  AUC=0.9912\n"}
+,{"stream_name":"stdout","time":6906.987292902,"data":"  Hybrid without intent analysis     acc= 98.98  prec= 99.26  rec= 99.03  F1= 99.14  AUC=0.9927\n"}
+,{"stream_name":"stdout","time":6907.023179428,"data":"\n"}
+,{"stream_name":"stdout","time":6907.023205324,"data":"=== seed 42: fit=52789 validation=5000/13199 test=5000/16497 ===\n"}
+,{"stream_name":"stdout","time":6907.189457153,"data":"  Full hybrid                        acc= 98.94  prec= 99.29  rec= 98.93  F1= 99.11  AUC=0.9912\n"}
+,{"stream_name":"stdout","time":6907.189486714,"data":"  DistilBERT only                    acc= 98.98  prec= 99.23  rec= 99.06  F1= 99.14  AUC=0.9948\n"}
+,{"stream_name":"stdout","time":6907.189490888,"data":"  FP-Growth only                     acc= 58.34  prec= 67.77  rec= 57.53  F1= 62.23  AUC=0.6165\n"}
+,{"stream_name":"stdout","time":6907.189494319,"data":"  URL intelligence only              acc= 40.34  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":6907.189497934,"data":"  Intent only                        acc=  40.5  prec= 68.18  rec=   0.5  F1=     1  AUC=0.5693\n"}
+,{"stream_name":"stdout","time":6907.189501334,"data":"  Hybrid without DistilBERT          acc= 58.88  prec=  74.8  rec= 46.87  F1= 57.63  AUC=0.6232\n"}
+,{"stream_name":"stdout","time":6907.189504742,"data":"  Hybrid without FP-Growth           acc= 98.92  prec= 99.23  rec= 98.96  F1= 99.09  AUC=0.9912\n"}
+,{"stream_name":"stdout","time":6907.189508071,"data":"  Hybrid without URL intelligence    acc= 98.94  prec= 99.29  rec= 98.93  F1= 99.11  AUC=0.9912\n"}
+,{"stream_name":"stdout","time":6907.189511456,"data":"  Hybrid without intent analysis     acc= 98.98  prec= 99.26  rec= 99.03  F1= 99.14  AUC=0.9927\n"}
+,{"stream_name":"stdout","time":6907.189515078,"data":"\n"}
+,{"stream_name":"stdout","time":6907.189518608,"data":"=== seed 42: fit=52789 validation=5000/13199 test=5000/16497 ===\n"}
+,{"stream_name":"stdout","time":10301.453645084,"data":"  fitted weights: semantic=0.40  url-intel=0.25  pattern=0.00  intent=0.25\n"}
+,{"stream_name":"stdout","time":10301.660969038,"data":"  fitted weights: semantic=0.40  url-intel=0.25  pattern=0.00  intent=0.25\n"}
+,{"stream_name":"stdout","time":10301.761149576,"data":"  Full hybrid                        acc= 99.44  prec= 99.52  rec= 99.58  F1= 99.55  AUC=0.9956\n"}
+,{"stream_name":"stdout","time":10301.761180798,"data":"  DistilBERT only                    acc=  99.4  prec= 99.39  rec= 99.64  F1= 99.52  AUC=0.9978\n"}
+,{"stream_name":"stdout","time":10301.761186191,"data":"  FP-Growth only                     acc= 38.16  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":10301.761190572,"data":"  URL intelligence only              acc= 38.16  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":10301.761194654,"data":"  Intent only                        acc= 38.34  prec= 69.57  rec=  0.52  F1=  1.03  AUC=0.5496\n"}
+,{"stream_name":"stdout","time":10301.76119932,"data":"  Hybrid without DistilBERT          acc= 38.34  prec= 69.57  rec=  0.52  F1=  1.03  AUC=0.5496\n"}
+,{"stream_name":"stdout","time":10301.761203487,"data":"  Hybrid without FP-Growth           acc= 99.44  prec= 99.52  rec= 99.58  F1= 99.55  AUC=0.9956\n"}
+,{"stream_name":"stdout","time":10301.761207546,"data":"  Hybrid without URL intelligence    acc= 99.44  prec= 99.52  rec= 99.58  F1= 99.55  AUC=0.9956\n"}
+,{"stream_name":"stdout","time":10301.761211645,"data":"  Hybrid without intent analysis     acc=  99.4  prec= 99.39  rec= 99.64  F1= 99.52  AUC=0.9978\n"}
+,{"stream_name":"stdout","time":10301.778177734,"data":"\n"}
+,{"stream_name":"stdout","time":10301.778222962,"data":"=== seed 77: fit=52789 validation=5000/13199 test=5000/16497 ===\n"}
+,{"stream_name":"stdout","time":10301.963697171,"data":"  Full hybrid                        acc= 99.44  prec= 99.52  rec= 99.58  F1= 99.55  AUC=0.9956\n"}
+,{"stream_name":"stdout","time":10301.963766759,"data":"  DistilBERT only                    acc=  99.4  prec= 99.39  rec= 99.64  F1= 99.52  AUC=0.9978\n"}
+,{"stream_name":"stdout","time":10301.963773734,"data":"  FP-Growth only                     acc= 38.16  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":10301.96377802,"data":"  URL intelligence only              acc= 38.16  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":10301.963782396,"data":"  Intent only                        acc= 38.34  prec= 69.57  rec=  0.52  F1=  1.03  AUC=0.5496\n"}
+,{"stream_name":"stdout","time":10301.96378585,"data":"  Hybrid without DistilBERT          acc= 38.34  prec= 69.57  rec=  0.52  F1=  1.03  AUC=0.5496\n"}
+,{"stream_name":"stdout","time":10301.963789321,"data":"  Hybrid without FP-Growth           acc= 99.44  prec= 99.52  rec= 99.58  F1= 99.55  AUC=0.9956\n"}
+,{"stream_name":"stdout","time":10301.963792753,"data":"  Hybrid without URL intelligence    acc= 99.44  prec= 99.52  rec= 99.58  F1= 99.55  AUC=0.9956\n"}
+,{"stream_name":"stdout","time":10301.963796429,"data":"  Hybrid without intent analysis     acc=  99.4  prec= 99.39  rec= 99.64  F1= 99.52  AUC=0.9978\n"}
+,{"stream_name":"stdout","time":10301.963799881,"data":"\n"}
+,{"stream_name":"stdout","time":10301.96380321,"data":"=== seed 77: fit=52789 validation=5000/13199 test=5000/16497 ===\n"}
+,{"stream_name":"stdout","time":13670.846225144,"data":"  fitted weights: semantic=0.80  url-intel=0.25  pattern=0.00  intent=0.00\n"}
+,{"stream_name":"stdout","time":13671.058062398,"data":"  fitted weights: semantic=0.80  url-intel=0.25  pattern=0.00  intent=0.00\n"}
+,{"stream_name":"stdout","time":13671.191214275,"data":"  Full hybrid                        acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.191248968,"data":"  DistilBERT only                    acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.191280011,"data":"  FP-Growth only                     acc= 39.22  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.191287005,"data":"  URL intelligence only              acc= 39.22  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.191292253,"data":"  Intent only                        acc= 39.22  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.19129717,"data":"  Hybrid without DistilBERT          acc= 39.22  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.191301901,"data":"  Hybrid without FP-Growth           acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.191306365,"data":"  Hybrid without URL intelligence    acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.191310761,"data":"  Hybrid without intent analysis     acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.195198258,"data":"\n"}
+,{"stream_name":"stdout","time":13671.195221792,"data":"Wrote /kaggle/working/results/evaluation_phishing_emails.json\n"}
+,{"stream_name":"stdout","time":13671.195226913,"data":"\n"}
+,{"stream_name":"stdout","time":13671.195237852,"data":"=== Table: main results, fitted weights (mean +/- std over seeds) ===\n"}
+,{"stream_name":"stdout","time":13671.195362704,"data":"  Full hybrid                        acc=99.17+/-0.25  F1=99.32+/-0.22  AUC=0.99+/-0\n"}
+,{"stream_name":"stdout","time":13671.195374925,"data":"  DistilBERT only                    acc=99.17+/-0.21  F1=99.32+/-0.19  AUC=1+/-0\n"}
+,{"stream_name":"stdout","time":13671.195416919,"data":"  FP-Growth only                     acc=45.24+/-11.36  F1=20.74+/-35.93  AUC=0.54+/-0.07\n"}
+,{"stream_name":"stdout","time":13671.195437199,"data":"  URL intelligence only              acc=39.24+/-1.09  F1=0+/-0  AUC=0.5+/-0\n"}
+,{"stream_name":"stdout","time":13671.1954415,"data":"  Intent only                        acc=39.35+/-1.09  F1=0.68+/-0.59  AUC=0.54+/-0.04\n"}
+,{"stream_name":"stdout","time":13671.195445608,"data":"  Hybrid without DistilBERT          acc=45.48+/-11.61  F1=19.55+/-32.98  AUC=0.56+/-0.06\n"}
+,{"stream_name":"stdout","time":13671.195542791,"data":"  Hybrid without FP-Growth           acc=99.17+/-0.26  F1=99.31+/-0.23  AUC=0.99+/-0\n"}
+,{"stream_name":"stdout","time":13671.195550076,"data":"  Hybrid without URL intelligence    acc=99.17+/-0.25  F1=99.32+/-0.22  AUC=0.99+/-0\n"}
+,{"stream_name":"stdout","time":13671.195554195,"data":"  Hybrid without intent analysis     acc=99.17+/-0.21  F1=99.32+/-0.19  AUC=1+/-0\n"}
+,{"stream_name":"stdout","time":13671.195557914,"data":"\n"}
+,{"stream_name":"stdout","time":13671.195561084,"data":"=== Table: main results, hand-set default weights ===\n"}
+,{"stream_name":"stdout","time":13671.195564374,"data":"  Full hybrid                        acc=99.15  F1=99.29  AUC=0.99\n"}
+,{"stream_name":"stdout","time":13671.195567797,"data":"  DistilBERT only                    acc=99.17  F1=99.32  AUC=1\n"}
+,{"stream_name":"stdout","time":13671.195571129,"data":"  FP-Growth only                     acc=58.43  F1=62.9  AUC=0.62\n"}
+,{"stream_name":"stdout","time":13671.195574569,"data":"  URL intelligence only              acc=39.24  F1=0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.195703707,"data":"  Intent only                        acc=39.41  F1=1.03  AUC=0.56\n"}
+,{"stream_name":"stdout","time":13671.19571059,"data":"  Hybrid without DistilBERT          acc=58.05  F1=59.96  AUC=0.62\n"}
+,{"stream_name":"stdout","time":13671.195714685,"data":"  Hybrid without FP-Growth           acc=99.13  F1=99.28  AUC=0.99\n"}
+,{"stream_name":"stdout","time":13671.195718533,"data":"  Hybrid without URL intelligence    acc=99.15  F1=99.29  AUC=0.99\n"}
+,{"stream_name":"stdout","time":13671.19572242,"data":"  Hybrid without intent analysis     acc=99.17  F1=99.32  AUC=0.99\n"}
+,{"stream_name":"stdout","time":13671.394447814,"data":"  Full hybrid                        acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.394513725,"data":"  DistilBERT only                    acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.394520133,"data":"  FP-Growth only                     acc= 39.22  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.394524352,"data":"  URL intelligence only              acc= 39.22  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.394528762,"data":"  Intent only                        acc= 39.22  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.394532841,"data":"  Hybrid without DistilBERT          acc= 39.22  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.394536782,"data":"  Hybrid without FP-Growth           acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.394540486,"data":"  Hybrid without URL intelligence    acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.394544056,"data":"  Hybrid without intent analysis     acc= 99.14  prec= 99.28  rec= 99.31  F1= 99.29  AUC=0.9957\n"}
+,{"stream_name":"stdout","time":13671.394547788,"data":"\n"}
+,{"stream_name":"stdout","time":13671.394551119,"data":"Wrote /kaggle/working/results/evaluation_phishing_emails.json\n"}
+,{"stream_name":"stdout","time":13671.394569647,"data":"\n"}
+,{"stream_name":"stdout","time":13671.394573107,"data":"=== Table: main results, fitted weights (mean +/- std over seeds) ===\n"}
+,{"stream_name":"stdout","time":13671.3945767,"data":"  Full hybrid                        acc=99.17+/-0.25  F1=99.32+/-0.22  AUC=0.99+/-0\n"}
+,{"stream_name":"stdout","time":13671.394582036,"data":"  DistilBERT only                    acc=99.17+/-0.21  F1=99.32+/-0.19  AUC=1+/-0\n"}
+,{"stream_name":"stdout","time":13671.394589282,"data":"  FP-Growth only                     acc=45.24+/-11.36  F1=20.74+/-35.93  AUC=0.54+/-0.07\n"}
+,{"stream_name":"stdout","time":13671.394591744,"data":"  URL intelligence only              acc=39.24+/-1.09  F1=0+/-0  AUC=0.5+/-0\n"}
+,{"stream_name":"stdout","time":13671.394594079,"data":"  Intent only                        acc=39.35+/-1.09  F1=0.68+/-0.59  AUC=0.54+/-0.04\n"}
+,{"stream_name":"stdout","time":13671.394596479,"data":"  Hybrid without DistilBERT          acc=45.48+/-11.61  F1=19.55+/-32.98  AUC=0.56+/-0.06\n"}
+,{"stream_name":"stdout","time":13671.394610855,"data":"  Hybrid without FP-Growth           acc=99.17+/-0.26  F1=99.31+/-0.23  AUC=0.99+/-0\n"}
+,{"stream_name":"stdout","time":13671.394615176,"data":"  Hybrid without URL intelligence    acc=99.17+/-0.25  F1=99.32+/-0.22  AUC=0.99+/-0\n"}
+,{"stream_name":"stdout","time":13671.394619318,"data":"  Hybrid without intent analysis     acc=99.17+/-0.21  F1=99.32+/-0.19  AUC=1+/-0\n"}
+,{"stream_name":"stdout","time":13671.394623508,"data":"\n"}
+,{"stream_name":"stdout","time":13671.39462764,"data":"=== Table: main results, hand-set default weights ===\n"}
+,{"stream_name":"stdout","time":13671.394631621,"data":"  Full hybrid                        acc=99.15  F1=99.29  AUC=0.99\n"}
+,{"stream_name":"stdout","time":13671.394635268,"data":"  DistilBERT only                    acc=99.17  F1=99.32  AUC=1\n"}
+,{"stream_name":"stdout","time":13671.3946388,"data":"  FP-Growth only                     acc=58.43  F1=62.9  AUC=0.62\n"}
+,{"stream_name":"stdout","time":13671.394643642,"data":"  URL intelligence only              acc=39.24  F1=0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13671.394647272,"data":"  Intent only                        acc=39.41  F1=1.03  AUC=0.56\n"}
+,{"stream_name":"stdout","time":13671.394650818,"data":"  Hybrid without DistilBERT          acc=58.05  F1=59.96  AUC=0.62\n"}
+,{"stream_name":"stdout","time":13671.394654348,"data":"  Hybrid without FP-Growth           acc=99.13  F1=99.28  AUC=0.99\n"}
+,{"stream_name":"stdout","time":13671.394657858,"data":"  Hybrid without URL intelligence    acc=99.15  F1=99.29  AUC=0.99\n"}
+,{"stream_name":"stdout","time":13671.39466142,"data":"  Hybrid without intent analysis     acc=99.17  F1=99.32  AUC=0.99\n"}
+,{"stream_name":"stdout","time":13671.753525189,"data":"[beat] evaluation finished: phishing_emails\n"}
+,{"stream_name":"stdout","time":13671.754430907,"data":"\n"}
+,{"stream_name":"stdout","time":13671.754456971,"data":"\u003e\u003e\u003e npx tsx scripts/eval.ts --dataset /kaggle/working/repo/ml/datasets/sms_spam.csv --seeds 13,42,77 --max-eval 0 --out /kaggle/working/results/evaluation_sms_spam.json\n"}
+,{"stream_name":"stdout","time":13671.785090137,"data":"[beat] evaluation started: sms_spam\n"}
+,{"stream_name":"stdout","time":13672.791097186,"data":"Loaded 5572 samples from /kaggle/working/repo/ml/datasets/sms_spam.csv\n"}
+,{"stream_name":"stdout","time":13672.797995721,"data":"\n"}
+,{"stream_name":"stdout","time":13672.79804583,"data":"=== seed 13: fit=3565 validation=892/892 test=1115/1115 ===\n"}
+,{"stream_name":"stdout","time":13672.9492334,"data":"Mined 14 discriminative templates from the training split\n"}
+,{"stream_name":"stdout","time":13672.997342287,"data":"Loaded 5572 samples from /kaggle/working/repo/ml/datasets/sms_spam.csv\n"}
+,{"stream_name":"stdout","time":13672.997388738,"data":"\n"}
+,{"stream_name":"stdout","time":13672.997393274,"data":"=== seed 13: fit=3565 validation=892/892 test=1115/1115 ===\n"}
+,{"stream_name":"stdout","time":13672.99739726,"data":"Mined 14 discriminative templates from the training split\n"}
+,{"stream_name":"stdout","time":13768.805481567,"data":"  fitted weights: semantic=0.25  url-intel=0.00  pattern=0.05  intent=0.25\n"}
+,{"stream_name":"stdout","time":13768.873201616,"data":"  Full hybrid                        acc= 91.12  prec= 82.28  rec= 43.33  F1= 56.77  AUC=0.8039\n"}
+,{"stream_name":"stdout","time":13768.873236614,"data":"  DistilBERT only                    acc= 41.08  prec= 16.69  rec= 84.67  F1= 27.88  AUC=0.7584\n"}
+,{"stream_name":"stdout","time":13768.873254376,"data":"  FP-Growth only                     acc= 90.76  prec= 79.75  rec=    42  F1= 55.02  AUC=0.7043\n"}
+,{"stream_name":"stdout","time":13768.8732603,"data":"  URL intelligence only              acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13768.87328088,"data":"  Intent only                        acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.6632\n"}
+,{"stream_name":"stdout","time":13768.873302889,"data":"  Hybrid without DistilBERT          acc= 86.64  prec=   100  rec=  0.67  F1=  1.32  AUC=0.7489\n"}
+,{"stream_name":"stdout","time":13768.873309086,"data":"  Hybrid without FP-Growth           acc= 87.44  prec= 55.68  rec= 32.67  F1= 41.18  AUC=0.7765\n"}
+,{"stream_name":"stdout","time":13768.873314207,"data":"  Hybrid without URL intelligence    acc= 91.12  prec= 82.28  rec= 43.33  F1= 56.77  AUC=0.8039\n"}
+,{"stream_name":"stdout","time":13768.873318993,"data":"  Hybrid without intent analysis     acc= 42.33  prec= 16.82  rec= 83.33  F1=    28  AUC=0.8\n"}
+,{"stream_name":"stdout","time":13768.875445002,"data":"\n"}
+,{"stream_name":"stdout","time":13768.875466791,"data":"=== seed 42: fit=3565 validation=892/892 test=1115/1115 ===\n"}
+,{"stream_name":"stdout","time":13769.012812041,"data":"  fitted weights: semantic=0.25  url-intel=0.00  pattern=0.05  intent=0.25\n"}
+,{"stream_name":"stdout","time":13769.01283863,"data":"  Full hybrid                        acc= 91.12  prec= 82.28  rec= 43.33  F1= 56.77  AUC=0.8039\n"}
+,{"stream_name":"stdout","time":13769.012843639,"data":"  DistilBERT only                    acc= 41.08  prec= 16.69  rec= 84.67  F1= 27.88  AUC=0.7584\n"}
+,{"stream_name":"stdout","time":13769.012848161,"data":"  FP-Growth only                     acc= 90.76  prec= 79.75  rec=    42  F1= 55.02  AUC=0.7043\n"}
+,{"stream_name":"stdout","time":13769.012852308,"data":"  URL intelligence only              acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.5\n"}
+,{"stream_name":"stdout","time":13769.012856656,"data":"  Intent only                        acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.6632\n"}
+,{"stream_name":"stdout","time":13769.012860925,"data":"  Hybrid without DistilBERT          acc= 86.64  prec=   100  rec=  0.67  F1=  1.32  AUC=0.7489\n"}
+,{"stream_name":"stdout","time":13769.012865742,"data":"  Hybrid without FP-Growth           acc= 87.44  prec= 55.68  rec= 32.67  F1= 41.18  AUC=0.7765\n"}
+,{"stream_name":"stdout","time":13769.012870496,"data":"  Hybrid without URL intelligence    acc= 91.12  prec= 82.28  rec= 43.33  F1= 56.77  AUC=0.8039\n"}
+,{"stream_name":"stdout","time":13769.012875405,"data":"  Hybrid without intent analysis     acc= 42.33  prec= 16.82  rec= 83.33  F1=    28  AUC=0.8\n"}
+,{"stream_name":"stdout","time":13769.012879847,"data":"\n"}
+,{"stream_name":"stdout","time":13769.01289247,"data":"=== seed 42: fit=3565 validation=892/892 test=1115/1115 ===\n"}
+,{"stream_name":"stdout","time":13868.484292171,"data":"  fitted weights: semantic=0.50  url-intel=0.25  pattern=0.25  intent=0.30\n"}
+,{"stream_name":"stdout","time":13868.550648653,"data":"  Full hybrid                        acc= 88.25  prec= 58.72  rec= 42.67  F1= 49.42  AUC=0.793\n"}
+,{"stream_name":"stdout","time":13868.550693317,"data":"  DistilBERT only                    acc= 36.95  prec= 15.57  rec= 83.33  F1= 26.23  AUC=0.7685\n"}
+,{"stream_name":"stdout","time":13868.550697463,"data":"  FP-Growth only                     acc= 90.85  prec= 82.43  rec= 40.67  F1= 54.46  AUC=0.6985\n"}
+,{"stream_name":"stdout","time":13868.550793009,"data":"  URL intelligence only              acc= 86.64  prec=   100  rec=  0.67  F1=  1.32  AUC=0.5267\n"}
+,{"stream_name":"stdout","time":13868.550808029,"data":"  Intent only                        acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.6912\n"}
+,{"stream_name":"stdout","time":13868.55081311,"data":"  Hybrid without DistilBERT          acc= 89.87  prec= 93.02  rec= 26.67  F1= 41.45  AUC=0.7696\n"}
+,{"stream_name":"stdout","time":13868.550817508,"data":"  Hybrid without FP-Growth           acc= 43.41  prec= 17.01  rec= 82.67  F1= 28.21  AUC=0.7731\n"}
+,{"stream_name":"stdout","time":13868.550821879,"data":"  Hybrid without URL intelligence    acc= 88.43  prec= 59.46  rec=    44  F1= 50.57  AUC=0.8067\n"}
+,{"stream_name":"stdout","time":13868.550826179,"data":"  Hybrid without intent analysis     acc= 42.33  prec= 16.73  rec= 82.67  F1= 27.83  AUC=0.7818\n"}
+,{"stream_name":"stdout","time":13868.552939746,"data":"\n"}
+,{"stream_name":"stdout","time":13868.552961482,"data":"=== seed 77: fit=3565 validation=892/892 test=1115/1115 ===\n"}
+,{"stream_name":"stdout","time":13868.699052002,"data":"  fitted weights: semantic=0.50  url-intel=0.25  pattern=0.25  intent=0.30\n"}
+,{"stream_name":"stdout","time":13868.699082588,"data":"  Full hybrid                        acc= 88.25  prec= 58.72  rec= 42.67  F1= 49.42  AUC=0.793\n"}
+,{"stream_name":"stdout","time":13868.699089323,"data":"  DistilBERT only                    acc= 36.95  prec= 15.57  rec= 83.33  F1= 26.23  AUC=0.7685\n"}
+,{"stream_name":"stdout","time":13868.699095612,"data":"  FP-Growth only                     acc= 90.85  prec= 82.43  rec= 40.67  F1= 54.46  AUC=0.6985\n"}
+,{"stream_name":"stdout","time":13868.699101903,"data":"  URL intelligence only              acc= 86.64  prec=   100  rec=  0.67  F1=  1.32  AUC=0.5267\n"}
+,{"stream_name":"stdout","time":13868.699108059,"data":"  Intent only                        acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.6912\n"}
+,{"stream_name":"stdout","time":13868.699114277,"data":"  Hybrid without DistilBERT          acc= 89.87  prec= 93.02  rec= 26.67  F1= 41.45  AUC=0.7696\n"}
+,{"stream_name":"stdout","time":13868.699120582,"data":"  Hybrid without FP-Growth           acc= 43.41  prec= 17.01  rec= 82.67  F1= 28.21  AUC=0.7731\n"}
+,{"stream_name":"stdout","time":13868.699126745,"data":"  Hybrid without URL intelligence    acc= 88.43  prec= 59.46  rec=    44  F1= 50.57  AUC=0.8067\n"}
+,{"stream_name":"stdout","time":13868.699133172,"data":"  Hybrid without intent analysis     acc= 42.33  prec= 16.73  rec= 82.67  F1= 27.83  AUC=0.7818\n"}
+,{"stream_name":"stdout","time":13868.69913971,"data":"\n"}
+,{"stream_name":"stdout","time":13868.699145856,"data":"=== seed 77: fit=3565 validation=892/892 test=1115/1115 ===\n"}
+,{"stream_name":"stdout","time":13959.00464714,"data":"  fitted weights: semantic=0.30  url-intel=0.25  pattern=0.60  intent=0.25\n"}
+,{"stream_name":"stdout","time":13959.074239851,"data":"  Full hybrid                        acc=  92.2  prec= 87.06  rec= 49.33  F1= 62.98  AUC=0.8633\n"}
+,{"stream_name":"stdout","time":13959.074290551,"data":"  DistilBERT only                    acc= 38.12  prec= 16.42  rec=    88  F1= 27.67  AUC=0.7771\n"}
+,{"stream_name":"stdout","time":13959.074317536,"data":"  FP-Growth only                     acc= 91.93  prec= 84.09  rec= 49.33  F1= 62.18  AUC=0.742\n"}
+,{"stream_name":"stdout","time":13959.074320644,"data":"  URL intelligence only              acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.5067\n"}
+,{"stream_name":"stdout","time":13959.074323031,"data":"  Intent only                        acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.6749\n"}
+,{"stream_name":"stdout","time":13959.074325289,"data":"  Hybrid without DistilBERT          acc= 91.93  prec= 84.09  rec= 49.33  F1= 62.18  AUC=0.7821\n"}
+,{"stream_name":"stdout","time":13959.074327704,"data":"  Hybrid without FP-Growth           acc= 50.13  prec= 19.05  rec= 83.33  F1= 31.02  AUC=0.7979\n"}
+,{"stream_name":"stdout","time":13959.074329974,"data":"  Hybrid without URL intelligence    acc=  92.2  prec= 87.06  rec= 49.33  F1= 62.98  AUC=0.8625\n"}
+,{"stream_name":"stdout","time":13959.074332266,"data":"  Hybrid without intent analysis     acc= 91.66  prec= 81.32  rec= 49.33  F1= 61.41  AUC=0.8543\n"}
+,{"stream_name":"stdout","time":13959.076246856,"data":"\n"}
+,{"stream_name":"stdout","time":13959.076275093,"data":"Wrote /kaggle/working/results/evaluation_sms_spam.json\n"}
+,{"stream_name":"stdout","time":13959.076281686,"data":"\n"}
+,{"stream_name":"stdout","time":13959.076285671,"data":"=== Table: main results, fitted weights (mean +/- std over seeds) ===\n"}
+,{"stream_name":"stdout","time":13959.076289137,"data":"  Full hybrid                        acc=90.52+/-2.04  F1=56.39+/-6.79  AUC=0.82+/-0.04\n"}
+,{"stream_name":"stdout","time":13959.076293074,"data":"  DistilBERT only                    acc=38.72+/-2.13  F1=27.26+/-0.9  AUC=0.77+/-0.01\n"}
+,{"stream_name":"stdout","time":13959.076296693,"data":"  FP-Growth only                     acc=91.18+/-0.65  F1=57.22+/-4.3  AUC=0.71+/-0.02\n"}
+,{"stream_name":"stdout","time":13959.076300072,"data":"  URL intelligence only              acc=86.58+/-0.05  F1=0.44+/-0.76  AUC=0.51+/-0.01\n"}
+,{"stream_name":"stdout","time":13959.076303874,"data":"  Intent only                        acc=86.55+/-0  F1=0+/-0  AUC=0.68+/-0.01\n"}
+,{"stream_name":"stdout","time":13959.07636567,"data":"  Hybrid without DistilBERT          acc=89.48+/-2.67  F1=34.98+/-30.94  AUC=0.77+/-0.02\n"}
+,{"stream_name":"stdout","time":13959.076381511,"data":"  Hybrid without FP-Growth           acc=60.33+/-23.72  F1=33.47+/-6.82  AUC=0.78+/-0.01\n"}
+,{"stream_name":"stdout","time":13959.076386037,"data":"  Hybrid without URL intelligence    acc=90.58+/-1.94  F1=56.77+/-6.21  AUC=0.82+/-0.03\n"}
+,{"stream_name":"stdout","time":13959.076389816,"data":"  Hybrid without intent analysis     acc=58.77+/-28.48  F1=39.08+/-19.34  AUC=0.81+/-0.04\n"}
+,{"stream_name":"stdout","time":13959.076496851,"data":"\n"}
+,{"stream_name":"stdout","time":13959.076507819,"data":"=== Table: main results, hand-set default weights ===\n"}
+,{"stream_name":"stdout","time":13959.076511984,"data":"  Full hybrid                        acc=52.23  F1=31.42  AUC=0.81\n"}
+,{"stream_name":"stdout","time":13959.07651649,"data":"  DistilBERT only                    acc=38.72  F1=27.26  AUC=0.77\n"}
+,{"stream_name":"stdout","time":13959.076520813,"data":"  FP-Growth only                     acc=91.18  F1=57.22  AUC=0.71\n"}
+,{"stream_name":"stdout","time":13959.076524958,"data":"  URL intelligence only              acc=86.58  F1=0.44  AUC=0.51\n"}
+,{"stream_name":"stdout","time":13959.076528465,"data":"  Intent only                        acc=86.55  F1=0  AUC=0.68\n"}
+,{"stream_name":"stdout","time":13959.076532783,"data":"  Hybrid without DistilBERT          acc=91.18  F1=57.22  AUC=0.77\n"}
+,{"stream_name":"stdout","time":13959.076536687,"data":"  Hybrid without FP-Growth           acc=42.06  F1=28.08  AUC=0.78\n"}
+,{"stream_name":"stdout","time":13959.076550806,"data":"  Hybrid without URL intelligence    acc=52.41  F1=31.85  AUC=0.82\n"}
+,{"stream_name":"stdout","time":13959.076557753,"data":"  Hybrid without intent analysis     acc=44.36  F1=28.89  AUC=0.81\n"}
+,{"stream_name":"stdout","time":13959.215216571,"data":"  fitted weights: semantic=0.30  url-intel=0.25  pattern=0.60  intent=0.25\n"}
+,{"stream_name":"stdout","time":13959.215238594,"data":"  Full hybrid                        acc=  92.2  prec= 87.06  rec= 49.33  F1= 62.98  AUC=0.8633\n"}
+,{"stream_name":"stdout","time":13959.215241694,"data":"  DistilBERT only                    acc= 38.12  prec= 16.42  rec=    88  F1= 27.67  AUC=0.7771\n"}
+,{"stream_name":"stdout","time":13959.215244161,"data":"  FP-Growth only                     acc= 91.93  prec= 84.09  rec= 49.33  F1= 62.18  AUC=0.742\n"}
+,{"stream_name":"stdout","time":13959.215246618,"data":"  URL intelligence only              acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.5067\n"}
+,{"stream_name":"stdout","time":13959.215249086,"data":"  Intent only                        acc= 86.55  prec=     0  rec=     0  F1=     0  AUC=0.6749\n"}
+,{"stream_name":"stdout","time":13959.215251318,"data":"  Hybrid without DistilBERT          acc= 91.93  prec= 84.09  rec= 49.33  F1= 62.18  AUC=0.7821\n"}
+,{"stream_name":"stdout","time":13959.215309283,"data":"  Hybrid without FP-Growth           acc= 50.13  prec= 19.05  rec= 83.33  F1= 31.02  AUC=0.7979\n"}
+,{"stream_name":"stdout","time":13959.215316679,"data":"  Hybrid without URL intelligence    acc=  92.2  prec= 87.06  rec= 49.33  F1= 62.98  AUC=0.8625\n"}
+,{"stream_name":"stdout","time":13959.215320321,"data":"  Hybrid without intent analysis     acc= 91.66  prec= 81.32  rec= 49.33  F1= 61.41  AUC=0.8543\n"}
+,{"stream_name":"stdout","time":13959.215325954,"data":"\n"}
+,{"stream_name":"stdout","time":13959.215332979,"data":"Wrote /kaggle/working/results/evaluation_sms_spam.json\n"}
+,{"stream_name":"stdout","time":13959.215335518,"data":"\n"}
+,{"stream_name":"stdout","time":13959.215337668,"data":"=== Table: main results, fitted weights (mean +/- std over seeds) ===\n"}
+,{"stream_name":"stdout","time":13959.215340111,"data":"  Full hybrid                        acc=90.52+/-2.04  F1=56.39+/-6.79  AUC=0.82+/-0.04\n"}
+,{"stream_name":"stdout","time":13959.215342735,"data":"  DistilBERT only                    acc=38.72+/-2.13  F1=27.26+/-0.9  AUC=0.77+/-0.01\n"}
+,{"stream_name":"stdout","time":13959.215345084,"data":"  FP-Growth only                     acc=91.18+/-0.65  F1=57.22+/-4.3  AUC=0.71+/-0.02\n"}
+,{"stream_name":"stdout","time":13959.21534728,"data":"  URL intelligence only              acc=86.58+/-0.05  F1=0.44+/-0.76  AUC=0.51+/-0.01\n"}
+,{"stream_name":"stdout","time":13959.215349472,"data":"  Intent only                        acc=86.55+/-0  F1=0+/-0  AUC=0.68+/-0.01\n"}
+,{"stream_name":"stdout","time":13959.215351744,"data":"  Hybrid without DistilBERT          acc=89.48+/-2.67  F1=34.98+/-30.94  AUC=0.77+/-0.02\n"}
+,{"stream_name":"stdout","time":13959.215353971,"data":"  Hybrid without FP-Growth           acc=60.33+/-23.72  F1=33.47+/-6.82  AUC=0.78+/-0.01\n"}
+,{"stream_name":"stdout","time":13959.215356178,"data":"  Hybrid without URL intelligence    acc=90.58+/-1.94  F1=56.77+/-6.21  AUC=0.82+/-0.03\n"}
+,{"stream_name":"stdout","time":13959.215358384,"data":"  Hybrid without intent analysis     acc=58.77+/-28.48  F1=39.08+/-19.34  AUC=0.81+/-0.04\n"}
+,{"stream_name":"stdout","time":13959.215360809,"data":"\n"}
+,{"stream_name":"stdout","time":13959.215362911,"data":"=== Table: main results, hand-set default weights ===\n"}
+,{"stream_name":"stdout","time":13959.215365072,"data":"  Full hybrid                        acc=52.23  F1=31.42  AUC=0.81\n"}
+,{"stream_name":"stdout","time":13959.215388659,"data":"  DistilBERT only                    acc=38.72  F1=27.26  AUC=0.77\n"}
+,{"stream_name":"stdout","time":13959.215395443,"data":"  FP-Growth only                     acc=91.18  F1=57.22  AUC=0.71\n"}
+,{"stream_name":"stdout","time":13959.215399506,"data":"  URL intelligence only              acc=86.58  F1=0.44  AUC=0.51\n"}
+,{"stream_name":"stdout","time":13959.215403533,"data":"  Intent only                        acc=86.55  F1=0  AUC=0.68\n"}
+,{"stream_name":"stdout","time":13959.215407501,"data":"  Hybrid without DistilBERT          acc=91.18  F1=57.22  AUC=0.77\n"}
+,{"stream_name":"stdout","time":13959.215410982,"data":"  Hybrid without FP-Growth           acc=42.06  F1=28.08  AUC=0.78\n"}
+,{"stream_name":"stdout","time":13959.215414281,"data":"  Hybrid without URL intelligence    acc=52.41  F1=31.85  AUC=0.82\n"}
+,{"stream_name":"stdout","time":13959.215423129,"data":"  Hybrid without intent analysis     acc=44.36  F1=28.89  AUC=0.81\n"}
+,{"stream_name":"stdout","time":13959.2422106,"data":"[beat] evaluation finished: sms_spam\n"}
+,{"stream_name":"stdout","time":13959.260986307,"data":"\n"}
+,{"stream_name":"stdout","time":13959.261015256,"data":"\u003e\u003e\u003e python ml/baseline_svm.py --data /kaggle/working/repo/ml/datasets/phishing_emails.csv --out /kaggle/working/results/baseline_phishing_emails.json\n"}
+,{"stream_name":"stdout","time":14045.667495949,"data":"{\n"}
+,{"stream_name":"stdout","time":14045.667540284,"data":"  \"dataset\": \"SMS Spam Collection (UCI id 228)\",\n"}
+,{"stream_name":"stdout","time":14045.66754978,"data":"  \"raw_messages\": 82485,\n"}
+,{"stream_name":"stdout","time":14045.667553822,"data":"  \"after_deduplication\": 82075,\n"}
+,{"stream_name":"stdout","time":14045.667558138,"data":"  \"spam_rate\": 0.522,\n"}
+,{"stream_name":"stdout","time":14045.667562336,"data":"  \"split\": {\n"}
+,{"stream_name":"stdout","time":14045.667566346,"data":"    \"test_size\": 0.2,\n"}
+,{"stream_name":"stdout","time":14045.6675705,"data":"    \"seed\": 42\n"}
+,{"stream_name":"stdout","time":14045.667574672,"data":"  },\n"}
+,{"stream_name":"stdout","time":14045.667578702,"data":"  \"model\": \"TF-IDF (word 1-2 gram, sublinear) + LinearSVC\",\n"}
+,{"stream_name":"stdout","time":14045.667582906,"data":"  \"majority_class_baseline\": {\n"}
+,{"stream_name":"stdout","time":14045.667587444,"data":"    \"accuracy\": 47.8,\n"}
+,{"stream_name":"stdout","time":14045.667591546,"data":"    \"precision\": 0.0,\n"}
+,{"stream_name":"stdout","time":14045.667595746,"data":"    \"recall\": 0.0,\n"}
+,{"stream_name":"stdout","time":14045.66760007,"data":"    \"f1\": 0.0,\n"}
+,{"stream_name":"stdout","time":14045.667604374,"data":"    \"roc_auc\": 0.5,\n"}
+,{"stream_name":"stdout","time":14045.667608582,"data":"    \"tp\": 0,\n"}
+,{"stream_name":"stdout","time":14045.667612635,"data":"    \"fp\": 0,\n"}
+,{"stream_name":"stdout","time":14045.667616641,"data":"    \"fn\": 42843,\n"}
+,{"stream_name":"stdout","time":14045.667620646,"data":"    \"tn\": 39232\n"}
+,{"stream_name":"stdout","time":14045.667624719,"data":"  },\n"}
+,{"stream_name":"stdout","time":14045.667629483,"data":"  \"stratified_split\": {\n"}
+,{"stream_name":"stdout","time":14045.667641188,"data":"    \"accuracy\": 99.41,\n"}
+,{"stream_name":"stdout","time":14045.667645451,"data":"    \"precision\": 99.38,\n"}
+,{"stream_name":"stdout","time":14045.667649711,"data":"    \"recall\": 99.49,\n"}
+,{"stream_name":"stdout","time":14045.667653942,"data":"    \"f1\": 99.43,\n"}
+,{"stream_name":"stdout","time":14045.667657666,"data":"    \"roc_auc\": 0.9941,\n"}
+,{"stream_name":"stdout","time":14045.667661935,"data":"    \"tp\": 8525,\n"}
+,{"stream_name":"stdout","time":14045.667681284,"data":"    \"fp\": 53,\n"}
+,{"stream_name":"stdout","time":14045.667685536,"data":"    \"fn\": 44,\n"}
+,{"stream_name":"stdout","time":14045.667689263,"data":"    \"tn\": 7793,\n"}
+,{"stream_name":"stdout","time":14045.66769241,"data":"    \"test_size_messages\": 16415,\n"}
+,{"stream_name":"stdout","time":14045.667695643,"data":"    \"test_spam_count\": 8569\n"}
+,{"stream_name":"stdout","time":14045.667699005,"data":"  },\n"}
+,{"stream_name":"stdout","time":14045.667702088,"data":"  \"balanced_split\": {\n"}
+,{"stream_name":"stdout","time":14045.667705485,"data":"    \"accuracy\": 99.34,\n"}
+,{"stream_name":"stdout","time":14045.667709359,"data":"    \"precision\": 99.28,\n"}
+,{"stream_name":"stdout","time":14045.66771277,"data":"    \"recall\": 99.46,\n"}
+,{"stream_name":"stdout","time":14045.667721041,"data":"    \"f1\": 99.37,\n"}
+,{"stream_name":"stdout","time":14045.667723404,"data":"    \"roc_auc\": 0.9934,\n"}
+,{"stream_name":"stdout","time":14045.667725551,"data":"    \"tp\": 8523,\n"}
+,{"stream_name":"stdout","time":14045.667727726,"data":"    \"fp\": 62,\n"}
+,{"stream_name":"stdout","time":14045.667729826,"data":"    \"fn\": 46,\n"}
+,{"stream_name":"stdout","time":14045.667731919,"data":"    \"tn\": 7784,\n"}
+,{"stream_name":"stdout","time":14045.667734049,"data":"    \"test_size_messages\": 16415\n"}
+,{"stream_name":"stdout","time":14045.667736327,"data":"  },\n"}
+,{"stream_name":"stdout","time":14045.667738366,"data":"  \"paper_claim_full_hybrid\": {\n"}
+,{"stream_name":"stdout","time":14045.667740545,"data":"    \"accuracy\": 94.2,\n"}
+,{"stream_name":"stdout","time":14045.667742675,"data":"    \"precision\": 93.1,\n"}
+,{"stream_name":"stdout","time":14045.667744904,"data":"    \"recall\": 95.6,\n"}
+,{"stream_name":"stdout","time":14045.667747019,"data":"    \"f1\": 94.33,\n"}
+,{"stream_name":"stdout","time":14045.667749146,"data":"    \"roc_auc\": 0.972\n"}
+,{"stream_name":"stdout","time":14045.66775127,"data":"  }\n"}
+,{"stream_name":"stdout","time":14045.667753407,"data":"}\n"}
+,{"stream_name":"stdout","time":14045.667755524,"data":"wrote /kaggle/working/results/baseline_phishing_emails.json\n"}
+,{"stream_name":"stdout","time":14045.882809322,"data":"{\n"}
+,{"stream_name":"stdout","time":14045.882837375,"data":"  \"dataset\": \"SMS Spam Collection (UCI id 228)\",\n"}
+,{"stream_name":"stdout","time":14045.882841997,"data":"  \"raw_messages\": 82485,\n"}
+,{"stream_name":"stdout","time":14045.882845529,"data":"  \"after_deduplication\": 82075,\n"}
+,{"stream_name":"stdout","time":14045.882848965,"data":"  \"spam_rate\": 0.522,\n"}
+,{"stream_name":"stdout","time":14045.882852283,"data":"  \"split\": {\n"}
+,{"stream_name":"stdout","time":14045.882855547,"data":"    \"test_size\": 0.2,\n"}
+,{"stream_name":"stdout","time":14045.882858952,"data":"    \"seed\": 42\n"}
+,{"stream_name":"stdout","time":14045.882867069,"data":"  },\n"}
+,{"stream_name":"stdout","time":14045.882870044,"data":"  \"model\": \"TF-IDF (word 1-2 gram, sublinear) + LinearSVC\",\n"}
+,{"stream_name":"stdout","time":14045.882873304,"data":"  \"majority_class_baseline\": {\n"}
+,{"stream_name":"stdout","time":14045.882899089,"data":"    \"accuracy\": 47.8,\n"}
+,{"stream_name":"stdout","time":14045.882903227,"data":"    \"precision\": 0.0,\n"}
+,{"stream_name":"stdout","time":14045.882906911,"data":"    \"recall\": 0.0,\n"}
+,{"stream_name":"stdout","time":14045.882910169,"data":"    \"f1\": 0.0,\n"}
+,{"stream_name":"stdout","time":14045.882913376,"data":"    \"roc_auc\": 0.5,\n"}
+,{"stream_name":"stdout","time":14045.8829167,"data":"    \"tp\": 0,\n"}
+,{"stream_name":"stdout","time":14045.88293003,"data":"    \"fp\": 0,\n"}
+,{"stream_name":"stdout","time":14045.882933456,"data":"    \"fn\": 42843,\n"}
+,{"stream_name":"stdout","time":14045.882936782,"data":"    \"tn\": 39232\n"}
+,{"stream_name":"stdout","time":14045.882940058,"data":"  },\n"}
+,{"stream_name":"stdout","time":14045.882943164,"data":"  \"stratified_split\": {\n"}
+,{"stream_name":"stdout","time":14045.882946424,"data":"    \"accuracy\": 99.41,\n"}
+,{"stream_name":"stdout","time":14045.882949782,"data":"    \"precision\": 99.38,\n"}
+,{"stream_name":"stdout","time":14045.882962792,"data":"    \"recall\": 99.49,\n"}
+,{"stream_name":"stdout","time":14045.882965245,"data":"    \"f1\": 99.43,\n"}
+,{"stream_name":"stdout","time":14045.882967367,"data":"    \"roc_auc\": 0.9941,\n"}
+,{"stream_name":"stdout","time":14045.882970057,"data":"    \"tp\": 8525,\n"}
+,{"stream_name":"stdout","time":14045.88298349,"data":"    \"fp\": 53,\n"}
+,{"stream_name":"stdout","time":14045.882987425,"data":"    \"fn\": 44,\n"}
+,{"stream_name":"stdout","time":14045.882991562,"data":"    \"tn\": 7793,\n"}
+,{"stream_name":"stdout","time":14045.882994889,"data":"    \"test_size_messages\": 16415,\n"}
+,{"stream_name":"stdout","time":14045.882998851,"data":"    \"test_spam_count\": 8569\n"}
+,{"stream_name":"stdout","time":14045.883002487,"data":"  },\n"}
+,{"stream_name":"stdout","time":14045.883005664,"data":"  \"balanced_split\": {\n"}
+,{"stream_name":"stdout","time":14045.88300887,"data":"    \"accuracy\": 99.34,\n"}
+,{"stream_name":"stdout","time":14045.883012109,"data":"    \"precision\": 99.28,\n"}
+,{"stream_name":"stdout","time":14045.883015311,"data":"    \"recall\": 99.46,\n"}
+,{"stream_name":"stdout","time":14045.883018539,"data":"    \"f1\": 99.37,\n"}
+,{"stream_name":"stdout","time":14045.883021735,"data":"    \"roc_auc\": 0.9934,\n"}
+,{"stream_name":"stdout","time":14045.883024977,"data":"    \"tp\": 8523,\n"}
+,{"stream_name":"stdout","time":14045.883028219,"data":"    \"fp\": 62,\n"}
+,{"stream_name":"stdout","time":14045.883031457,"data":"    \"fn\": 46,\n"}
+,{"stream_name":"stdout","time":14045.883034655,"data":"    \"tn\": 7784,\n"}
+,{"stream_name":"stdout","time":14045.883037869,"data":"    \"test_size_messages\": 16415\n"}
+,{"stream_name":"stdout","time":14045.883041483,"data":"  },\n"}
+,{"stream_name":"stdout","time":14045.883044747,"data":"  \"paper_claim_full_hybrid\": {\n"}
+,{"stream_name":"stdout","time":14045.883048059,"data":"    \"accuracy\": 94.2,\n"}
+,{"stream_name":"stdout","time":14045.883051389,"data":"    \"precision\": 93.1,\n"}
+,{"stream_name":"stdout","time":14045.883054714,"data":"    \"recall\": 95.6,\n"}
+,{"stream_name":"stdout","time":14045.883061665,"data":"    \"f1\": 94.33,\n"}
+,{"stream_name":"stdout","time":14045.883064125,"data":"    \"roc_auc\": 0.972\n"}
+,{"stream_name":"stdout","time":14045.883067039,"data":"  }\n"}
+,{"stream_name":"stdout","time":14045.883079887,"data":"}\n"}
+,{"stream_name":"stdout","time":14045.883083792,"data":"wrote /kaggle/working/results/baseline_phishing_emails.json\n"}
+,{"stream_name":"stdout","time":14045.88520142,"data":"\n"}
+,{"stream_name":"stdout","time":14045.885220427,"data":"\u003e\u003e\u003e python ml/baseline_svm.py --data /kaggle/working/repo/ml/datasets/sms_spam.csv --out /kaggle/working/results/baseline_sms_spam.json\n"}
+,{"stream_name":"stdout","time":14047.397583641,"data":"{\n"}
+,{"stream_name":"stdout","time":14047.397611926,"data":"  \"dataset\": \"SMS Spam Collection (UCI id 228)\",\n"}
+,{"stream_name":"stdout","time":14047.397617145,"data":"  \"raw_messages\": 5572,\n"}
+,{"stream_name":"stdout","time":14047.397621789,"data":"  \"after_deduplication\": 5126,\n"}
+,{"stream_name":"stdout","time":14047.397637706,"data":"  \"spam_rate\": 0.1227,\n"}
+,{"stream_name":"stdout","time":14047.397642243,"data":"  \"split\": {\n"}
+,{"stream_name":"stdout","time":14047.397646351,"data":"    \"test_size\": 0.2,\n"}
+,{"stream_name":"stdout","time":14047.3976507,"data":"    \"seed\": 42\n"}
+,{"stream_name":"stdout","time":14047.397654829,"data":"  },\n"}
+,{"stream_name":"stdout","time":14047.397658869,"data":"  \"model\": \"TF-IDF (word 1-2 gram, sublinear) + LinearSVC\",\n"}
+,{"stream_name":"stdout","time":14047.397663308,"data":"  \"majority_class_baseline\": {\n"}
+,{"stream_name":"stdout","time":14047.397667298,"data":"    \"accuracy\": 87.73,\n"}
+,{"stream_name":"stdout","time":14047.397671502,"data":"    \"precision\": 0.0,\n"}
+,{"stream_name":"stdout","time":14047.397675779,"data":"    \"recall\": 0.0,\n"}
+,{"stream_name":"stdout","time":14047.39768002,"data":"    \"f1\": 0.0,\n"}
+,{"stream_name":"stdout","time":14047.397684013,"data":"    \"roc_auc\": 0.5,\n"}
+,{"stream_name":"stdout","time":14047.397688142,"data":"    \"tp\": 0,\n"}
+,{"stream_name":"stdout","time":14047.397692153,"data":"    \"fp\": 0,\n"}
+,{"stream_name":"stdout","time":14047.397696125,"data":"    \"fn\": 629,\n"}
+,{"stream_name":"stdout","time":14047.397700235,"data":"    \"tn\": 4497\n"}
+,{"stream_name":"stdout","time":14047.39770482,"data":"  },\n"}
+,{"stream_name":"stdout","time":14047.397708645,"data":"  \"stratified_split\": {\n"}
+,{"stream_name":"stdout","time":14047.397712503,"data":"    \"accuracy\": 98.15,\n"}
+,{"stream_name":"stdout","time":14047.397716358,"data":"    \"precision\": 95.73,\n"}
+,{"stream_name":"stdout","time":14047.397720711,"data":"    \"recall\": 88.89,\n"}
+,{"stream_name":"stdout","time":14047.397724658,"data":"    \"f1\": 92.18,\n"}
+,{"stream_name":"stdout","time":14047.397729198,"data":"    \"roc_auc\": 0.9417,\n"}
+,{"stream_name":"stdout","time":14047.397733622,"data":"    \"tp\": 112,\n"}
+,{"stream_name":"stdout","time":14047.397737701,"data":"    \"fp\": 5,\n"}
+,{"stream_name":"stdout","time":14047.397741676,"data":"    \"fn\": 14,\n"}
+,{"stream_name":"stdout","time":14047.397745708,"data":"    \"tn\": 895,\n"}
+,{"stream_name":"stdout","time":14047.397749784,"data":"    \"test_size_messages\": 1026,\n"}
+,{"stream_name":"stdout","time":14047.397754418,"data":"    \"test_spam_count\": 126\n"}
+,{"stream_name":"stdout","time":14047.397759003,"data":"  },\n"}
+,{"stream_name":"stdout","time":14047.397763213,"data":"  \"balanced_split\": {\n"}
+,{"stream_name":"stdout","time":14047.397767535,"data":"    \"accuracy\": 94.84,\n"}
+,{"stream_name":"stdout","time":14047.397771688,"data":"    \"precision\": 94.49,\n"}
+,{"stream_name":"stdout","time":14047.397775681,"data":"    \"recall\": 95.24,\n"}
+,{"stream_name":"stdout","time":14047.397779549,"data":"    \"f1\": 94.86,\n"}
+,{"stream_name":"stdout","time":14047.397783668,"data":"    \"roc_auc\": 0.9484,\n"}
+,{"stream_name":"stdout","time":14047.397787619,"data":"    \"tp\": 120,\n"}
+,{"stream_name":"stdout","time":14047.397791733,"data":"    \"fp\": 7,\n"}
+,{"stream_name":"stdout","time":14047.397795694,"data":"    \"fn\": 6,\n"}
+,{"stream_name":"stdout","time":14047.397799551,"data":"    \"tn\": 119,\n"}
+,{"stream_name":"stdout","time":14047.397803898,"data":"    \"test_size_messages\": 252\n"}
+,{"stream_name":"stdout","time":14047.397807957,"data":"  },\n"}
+,{"stream_name":"stdout","time":14047.397812266,"data":"  \"paper_claim_full_hybrid\": {\n"}
+,{"stream_name":"stdout","time":14047.39781651,"data":"    \"accuracy\": 94.2,\n"}
+,{"stream_name":"stdout","time":14047.397820548,"data":"    \"precision\": 93.1,\n"}
+,{"stream_name":"stdout","time":14047.397832378,"data":"    \"recall\": 95.6,\n"}
+,{"stream_name":"stdout","time":14047.397836559,"data":"    \"f1\": 94.33,\n"}
+,{"stream_name":"stdout","time":14047.397840769,"data":"    \"roc_auc\": 0.972\n"}
+,{"stream_name":"stdout","time":14047.397845082,"data":"  }\n"}
+,{"stream_name":"stdout","time":14047.397848967,"data":"}\n"}
+,{"stream_name":"stdout","time":14047.397852895,"data":"wrote /kaggle/working/results/baseline_sms_spam.json\n"}
+,{"stream_name":"stdout","time":14047.582808241,"data":"{\n"}
+,{"stream_name":"stdout","time":14047.582836148,"data":"  \"dataset\": \"SMS Spam Collection (UCI id 228)\",\n"}
+,{"stream_name":"stdout","time":14047.582841619,"data":"  \"raw_messages\": 5572,\n"}
+,{"stream_name":"stdout","time":14047.582845797,"data":"  \"after_deduplication\": 5126,\n"}
+,{"stream_name":"stdout","time":14047.582849569,"data":"  \"spam_rate\": 0.1227,\n"}
+,{"stream_name":"stdout","time":14047.582853231,"data":"  \"split\": {\n"}
+,{"stream_name":"stdout","time":14047.582857054,"data":"    \"test_size\": 0.2,\n"}
+,{"stream_name":"stdout","time":14047.582860884,"data":"    \"seed\": 42\n"}
+,{"stream_name":"stdout","time":14047.582864038,"data":"  },\n"}
+,{"stream_name":"stdout","time":14047.582867254,"data":"  \"model\": \"TF-IDF (word 1-2 gram, sublinear) + LinearSVC\",\n"}
+,{"stream_name":"stdout","time":14047.582870799,"data":"  \"majority_class_baseline\": {\n"}
+,{"stream_name":"stdout","time":14047.582874256,"data":"    \"accuracy\": 87.73,\n"}
+,{"stream_name":"stdout","time":14047.582877626,"data":"    \"precision\": 0.0,\n"}
+,{"stream_name":"stdout","time":14047.582880932,"data":"    \"recall\": 0.0,\n"}
+,{"stream_name":"stdout","time":14047.582884159,"data":"    \"f1\": 0.0,\n"}
+,{"stream_name":"stdout","time":14047.582887226,"data":"    \"roc_auc\": 0.5,\n"}
+,{"stream_name":"stdout","time":14047.582890459,"data":"    \"tp\": 0,\n"}
+,{"stream_name":"stdout","time":14047.582893742,"data":"    \"fp\": 0,\n"}
+,{"stream_name":"stdout","time":14047.582896912,"data":"    \"fn\": 629,\n"}
+,{"stream_name":"stdout","time":14047.582900151,"data":"    \"tn\": 4497\n"}
+,{"stream_name":"stdout","time":14047.582903351,"data":"  },\n"}
+,{"stream_name":"stdout","time":14047.582906521,"data":"  \"stratified_split\": {\n"}
+,{"stream_name":"stdout","time":14047.582909846,"data":"    \"accuracy\": 98.15,\n"}
+,{"stream_name":"stdout","time":14047.582913203,"data":"    \"precision\": 95.73,\n"}
+,{"stream_name":"stdout","time":14047.582916448,"data":"    \"recall\": 88.89,\n"}
+,{"stream_name":"stdout","time":14047.582921508,"data":"    \"f1\": 92.18,\n"}
+,{"stream_name":"stdout","time":14047.582924558,"data":"    \"roc_auc\": 0.9417,\n"}
+,{"stream_name":"stdout","time":14047.582927522,"data":"    \"tp\": 112,\n"}
+,{"stream_name":"stdout","time":14047.582946974,"data":"    \"fp\": 5,\n"}
+,{"stream_name":"stdout","time":14047.58295077,"data":"    \"fn\": 14,\n"}
+,{"stream_name":"stdout","time":14047.58295475,"data":"    \"tn\": 895,\n"}
+,{"stream_name":"stdout","time":14047.58295835,"data":"    \"test_size_messages\": 1026,\n"}
+,{"stream_name":"stdout","time":14047.582962243,"data":"    \"test_spam_count\": 126\n"}
+,{"stream_name":"stdout","time":14047.582965774,"data":"  },\n"}
+,{"stream_name":"stdout","time":14047.582969476,"data":"  \"balanced_split\": {\n"}
+,{"stream_name":"stdout","time":14047.582972976,"data":"    \"accuracy\": 94.84,\n"}
+,{"stream_name":"stdout","time":14047.582976245,"data":"    \"precision\": 94.49,\n"}
+,{"stream_name":"stdout","time":14047.582979606,"data":"    \"recall\": 95.24,\n"}
+,{"stream_name":"stdout","time":14047.582997479,"data":"    \"f1\": 94.86,\n"}
+,{"stream_name":"stdout","time":14047.583001311,"data":"    \"roc_auc\": 0.9484,\n"}
+,{"stream_name":"stdout","time":14047.583004365,"data":"    \"tp\": 120,\n"}
+,{"stream_name":"stdout","time":14047.583007397,"data":"    \"fp\": 7,\n"}
+,{"stream_name":"stdout","time":14047.583010374,"data":"    \"fn\": 6,\n"}
+,{"stream_name":"stdout","time":14047.58301345,"data":"    \"tn\": 119,\n"}
+,{"stream_name":"stdout","time":14047.583016617,"data":"    \"test_size_messages\": 252\n"}
+,{"stream_name":"stdout","time":14047.583020019,"data":"  },\n"}
+,{"stream_name":"stdout","time":14047.583023146,"data":"  \"paper_claim_full_hybrid\": {\n"}
+,{"stream_name":"stdout","time":14047.58302629,"data":"    \"accuracy\": 94.2,\n"}
+,{"stream_name":"stdout","time":14047.583029416,"data":"    \"precision\": 93.1,\n"}
+,{"stream_name":"stdout","time":14047.583033074,"data":"    \"recall\": 95.6,\n"}
+,{"stream_name":"stdout","time":14047.583037301,"data":"    \"f1\": 94.33,\n"}
+,{"stream_name":"stdout","time":14047.58304113,"data":"    \"roc_auc\": 0.972\n"}
+,{"stream_name":"stdout","time":14047.583044681,"data":"  }\n"}
+,{"stream_name":"stdout","time":14047.583047684,"data":"}\n"}
+,{"stream_name":"stdout","time":14047.583050916,"data":"wrote /kaggle/working/results/baseline_sms_spam.json\n"}
+,{"stream_name":"stdout","time":14047.583054484,"data":"[beat] baselines finished\n"}
+,{"stream_name":"stdout","time":14119.708095385,"data":"outputs:\n"}
+,{"stream_name":"stdout","time":14119.70812686,"data":"  __notebook__.ipynb  0.1 MB\n"}
+,{"stream_name":"stdout","time":14119.708132521,"data":"  invisiphish-model.zip  1482.9 MB\n"}
+,{"stream_name":"stdout","time":14119.708137192,"data":"  invisiphish-results.zip  0.0 MB\n"}
+,{"stream_name":"stdout","time":14119.708142641,"data":"\n"}
+,{"stream_name":"stdout","time":14119.708147446,"data":"results:\n"}
+,{"stream_name":"stdout","time":14119.708151356,"data":"  baseline_phishing_emails.json\n"}
+,{"stream_name":"stdout","time":14119.708155607,"data":"  baseline_sms_spam.json\n"}
+,{"stream_name":"stdout","time":14119.708160497,"data":"  evaluation_phishing_emails.json\n"}
+,{"stream_name":"stdout","time":14119.708165224,"data":"  evaluation_sms_spam.json\n"}
+,{"stream_name":"stdout","time":14119.708169481,"data":"\n"}
+,{"stream_name":"stdout","time":14119.708173584,"data":"download invisiphish-model.zip and invisiphish-results.zip from the notebook output\n"}
+,{"stream_name":"stdout","time":14119.708178188,"data":"[beat] packaged outputs\n"}
+,{"stream_name":"stderr","time":14125.454397951,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":14125.454429053,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":14125.604288297,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":14125.604320408,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":14126.385756501,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":14126.478550313,"data":"[NbConvertApp] Writing 74080 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":14128.901793361,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":14129.466422433,"data":"[NbConvertApp] Writing 390329 bytes to __results__.html\n"}
+]

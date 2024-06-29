@@ -1,0 +1,20 @@
+{
+  "id": "cptadityavyas/invisiphish-training-and-evaluation",
+  "title": "invisiphish-training-and-evaluation",
+  "code_file": "invisiphish-training.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "accelerator": "gpu",
+  "dataset_sources": [
+    "cptadityavyas/invisiphish-training-package",
+    "naserabdullahalam/phishing-email-dataset",
+    "uciml/sms-spam-collection-dataset",
+    "taruntiwarihp/phishing-site-urls"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": [],
+  "notes": "Trains the InvisiPhish DistilBERT phishing classifier on a phishing-specific corpus, exports it to ONNX, and reproduces the paper's tables with the shipped TypeScript pipeline."
+}
