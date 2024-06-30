@@ -1,0 +1,19 @@
+Subject: Re: Q3 planning - meeting notes and next steps
+
+Hi Sarah,
+
+Thanks for sending the notes over. Here is what I took away from Tuesday and
+what I think we should do next.
+
+1. The migration timeline holds, but only if the data checks pass first. I
+   will pull the numbers by Friday so we have them before the review.
+2. Support staffing is still the open question. I would rather leave it
+   alone this sprint than change it half-way through the release.
+3. Nothing here needs a decision today. Shout if you want to talk it through
+   before the review.
+
+The notes are attached, and I have put them in the shared folder under
+Q3/planning.
+
+Thanks,
+Alex

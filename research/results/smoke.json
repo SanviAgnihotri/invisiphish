@@ -1,0 +1,417 @@
+{
+  "dataset": "ml/datasets/sms_spam.csv",
+  "seeds": [
+    13
+  ],
+  "test_size": 0.2,
+  "samples_evaluated": 400,
+  "generated_at": "2026-10-19T21:23:33.155Z",
+  "main_results": {
+    "Full hybrid": {
+      "accuracy": {
+        "mean": 86.42,
+        "std": 0
+      },
+      "precision": {
+        "mean": 60,
+        "std": 0
+      },
+      "recall": {
+        "mean": 25,
+        "std": 0
+      },
+      "f1": {
+        "mean": 35.29,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.77,
+        "std": 0
+      }
+    },
+    "DistilBERT only": {
+      "accuracy": {
+        "mean": 85.19,
+        "std": 0
+      },
+      "precision": {
+        "mean": 0,
+        "std": 0
+      },
+      "recall": {
+        "mean": 0,
+        "std": 0
+      },
+      "f1": {
+        "mean": 0,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.5,
+        "std": 0
+      }
+    },
+    "FP-Growth only": {
+      "accuracy": {
+        "mean": 86.42,
+        "std": 0
+      },
+      "precision": {
+        "mean": 60,
+        "std": 0
+      },
+      "recall": {
+        "mean": 25,
+        "std": 0
+      },
+      "f1": {
+        "mean": 35.29,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.61,
+        "std": 0
+      }
+    },
+    "URL intelligence only": {
+      "accuracy": {
+        "mean": 85.19,
+        "std": 0
+      },
+      "precision": {
+        "mean": 0,
+        "std": 0
+      },
+      "recall": {
+        "mean": 0,
+        "std": 0
+      },
+      "f1": {
+        "mean": 0,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.54,
+        "std": 0
+      }
+    },
+    "Intent only": {
+      "accuracy": {
+        "mean": 85.19,
+        "std": 0
+      },
+      "precision": {
+        "mean": 0,
+        "std": 0
+      },
+      "recall": {
+        "mean": 0,
+        "std": 0
+      },
+      "f1": {
+        "mean": 0,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.73,
+        "std": 0
+      }
+    },
+    "Hybrid without DistilBERT": {
+      "accuracy": {
+        "mean": 86.42,
+        "std": 0
+      },
+      "precision": {
+        "mean": 60,
+        "std": 0
+      },
+      "recall": {
+        "mean": 25,
+        "std": 0
+      },
+      "f1": {
+        "mean": 35.29,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.77,
+        "std": 0
+      }
+    },
+    "Hybrid without FP-Growth": {
+      "accuracy": {
+        "mean": 85.19,
+        "std": 0
+      },
+      "precision": {
+        "mean": 0,
+        "std": 0
+      },
+      "recall": {
+        "mean": 0,
+        "std": 0
+      },
+      "f1": {
+        "mean": 0,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.77,
+        "std": 0
+      }
+    },
+    "Hybrid without URL intelligence": {
+      "accuracy": {
+        "mean": 86.42,
+        "std": 0
+      },
+      "precision": {
+        "mean": 60,
+        "std": 0
+      },
+      "recall": {
+        "mean": 25,
+        "std": 0
+      },
+      "f1": {
+        "mean": 35.29,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.72,
+        "std": 0
+      }
+    },
+    "Hybrid without intent analysis": {
+      "accuracy": {
+        "mean": 86.42,
+        "std": 0
+      },
+      "precision": {
+        "mean": 60,
+        "std": 0
+      },
+      "recall": {
+        "mean": 25,
+        "std": 0
+      },
+      "f1": {
+        "mean": 35.29,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.65,
+        "std": 0
+      }
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 13,
+      "metrics": {
+        "Full hybrid": {
+          "accuracy": 86.42,
+          "precision": 60,
+          "recall": 25,
+          "f1": 35.29,
+          "roc_auc": 0.7651,
+          "support": 81
+        },
+        "DistilBERT only": {
+          "accuracy": 85.19,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "roc_auc": 0.5,
+          "support": 81
+        },
+        "FP-Growth only": {
+          "accuracy": 86.42,
+          "precision": 60,
+          "recall": 25,
+          "f1": 35.29,
+          "roc_auc": 0.6141,
+          "support": 81
+        },
+        "URL intelligence only": {
+          "accuracy": 85.19,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "roc_auc": 0.5417,
+          "support": 81
+        },
+        "Intent only": {
+          "accuracy": 85.19,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "roc_auc": 0.7258,
+          "support": 81
+        },
+        "Hybrid without DistilBERT": {
+          "accuracy": 86.42,
+          "precision": 60,
+          "recall": 25,
+          "f1": 35.29,
+          "roc_auc": 0.7651,
+          "support": 81
+        },
+        "Hybrid without FP-Growth": {
+          "accuracy": 85.19,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "roc_auc": 0.7705,
+          "support": 81
+        },
+        "Hybrid without URL intelligence": {
+          "accuracy": 86.42,
+          "precision": 60,
+          "recall": 25,
+          "f1": 35.29,
+          "roc_auc": 0.7228,
+          "support": 81
+        },
+        "Hybrid without intent analysis": {
+          "accuracy": 86.42,
+          "precision": 60,
+          "recall": 25,
+          "f1": 35.29,
+          "roc_auc": 0.6546,
+          "support": 81
+        }
+      },
+      "latency": {
+        "semantic": {
+          "mean": 3.19,
+          "p95": 0
+        },
+        "url-intel": {
+          "mean": 0,
+          "p95": 0
+        },
+        "pattern": {
+          "mean": 0.01,
+          "p95": 0.01
+        },
+        "intent": {
+          "mean": 0.03,
+          "p95": 0.03
+        }
+      }
+    }
+  ],
+  "mined_templates": [
+    {
+      "template": "free + txt",
+      "spamSupport": 7,
+      "hamSupport": 0,
+      "lift": 152174.91
+    },
+    {
+      "template": "call + prize",
+      "spamSupport": 6,
+      "hamSupport": 0,
+      "lift": 130435.78
+    },
+    {
+      "template": "call + claim",
+      "spamSupport": 6,
+      "hamSupport": 0,
+      "lift": 130435.78
+    },
+    {
+      "template": "call + claim + code",
+      "spamSupport": 5,
+      "hamSupport": 0,
+      "lift": 108696.65
+    },
+    {
+      "template": "call + code",
+      "spamSupport": 5,
+      "hamSupport": 0,
+      "lift": 108696.65
+    },
+    {
+      "template": "claim + code",
+      "spamSupport": 5,
+      "hamSupport": 0,
+      "lift": 108696.65
+    },
+    {
+      "template": "call + contact",
+      "spamSupport": 5,
+      "hamSupport": 0,
+      "lift": 108696.65
+    },
+    {
+      "template": "call + mobile",
+      "spamSupport": 5,
+      "hamSupport": 0,
+      "lift": 108696.65
+    },
+    {
+      "template": "free + mobile",
+      "spamSupport": 5,
+      "hamSupport": 0,
+      "lift": 108696.65
+    },
+    {
+      "template": "free + now",
+      "spamSupport": 5,
+      "hamSupport": 0,
+      "lift": 108696.65
+    },
+    {
+      "template": "call + free + mobile",
+      "spamSupport": 4,
+      "hamSupport": 0,
+      "lift": 86957.52
+    },
+    {
+      "template": "call + free + now",
+      "spamSupport": 4,
+      "hamSupport": 0,
+      "lift": 86957.52
+    },
+    {
+      "template": "claim + prize",
+      "spamSupport": 4,
+      "hamSupport": 0,
+      "lift": 86957.52
+    },
+    {
+      "template": "prize + won",
+      "spamSupport": 4,
+      "hamSupport": 0,
+      "lift": 86957.52
+    },
+    {
+      "template": "call + customer",
+      "spamSupport": 6,
+      "hamSupport": 1,
+      "lift": 35.6
+    }
+  ],
+  "latency": {
+    "semantic": {
+      "mean": 3.19,
+      "p95": 0
+    },
+    "url-intel": {
+      "mean": 0,
+      "p95": 0
+    },
+    "pattern": {
+      "mean": 0.01,
+      "p95": 0.01
+    },
+    "intent": {
+      "mean": 0.03,
+      "p95": 0.03
+    }
+  },
+  "note": "Produced by scripts/node/eval.ts using the shipped pipeline in src/lib/ml."
+}

@@ -1,0 +1,597 @@
+{
+  "dataset": "ml/datasets/sms_spam.csv",
+  "seeds": [
+    13,
+    42,
+    77
+  ],
+  "test_size": 0.2,
+  "samples_evaluated": 5574,
+  "generated_at": "2026-10-19T21:39:48.391Z",
+  "main_results": {
+    "Full hybrid": {
+      "accuracy": {
+        "mean": 91.82,
+        "std": 0.4
+      },
+      "precision": {
+        "mean": 98.94,
+        "std": 1.83
+      },
+      "recall": {
+        "mean": 39.56,
+        "std": 3.15
+      },
+      "f1": {
+        "mean": 56.46,
+        "std": 3.19
+      },
+      "roc_auc": {
+        "mean": 0.95,
+        "std": 0.01
+      }
+    },
+    "DistilBERT only": {
+      "accuracy": {
+        "mean": 98.18,
+        "std": 0.14
+      },
+      "precision": {
+        "mean": 95.56,
+        "std": 0.71
+      },
+      "recall": {
+        "mean": 90.67,
+        "std": 1.76
+      },
+      "f1": {
+        "mean": 93.04,
+        "std": 0.62
+      },
+      "roc_auc": {
+        "mean": 0.95,
+        "std": 0.01
+      }
+    },
+    "FP-Growth only": {
+      "accuracy": {
+        "mean": 90.35,
+        "std": 0.52
+      },
+      "precision": {
+        "mean": 77.59,
+        "std": 4.17
+      },
+      "recall": {
+        "mean": 39.78,
+        "std": 2.77
+      },
+      "f1": {
+        "mean": 52.55,
+        "std": 2.87
+      },
+      "roc_auc": {
+        "mean": 0.69,
+        "std": 0.01
+      }
+    },
+    "URL intelligence only": {
+      "accuracy": {
+        "mean": 86.59,
+        "std": 0.05
+      },
+      "precision": {
+        "mean": 33.33,
+        "std": 57.74
+      },
+      "recall": {
+        "mean": 0.22,
+        "std": 0.39
+      },
+      "f1": {
+        "mean": 0.44,
+        "std": 0.76
+      },
+      "roc_auc": {
+        "mean": 0.51,
+        "std": 0.01
+      }
+    },
+    "Intent only": {
+      "accuracy": {
+        "mean": 86.56,
+        "std": 0
+      },
+      "precision": {
+        "mean": 0,
+        "std": 0
+      },
+      "recall": {
+        "mean": 0,
+        "std": 0
+      },
+      "f1": {
+        "mean": 0,
+        "std": 0
+      },
+      "roc_auc": {
+        "mean": 0.67,
+        "std": 0.02
+      }
+    },
+    "Hybrid without DistilBERT": {
+      "accuracy": {
+        "mean": 89.22,
+        "std": 0.19
+      },
+      "precision": {
+        "mean": 76.69,
+        "std": 2.56
+      },
+      "recall": {
+        "mean": 28.45,
+        "std": 0.39
+      },
+      "f1": {
+        "mean": 41.5,
+        "std": 0.69
+      },
+      "roc_auc": {
+        "mean": 0.76,
+        "std": 0.01
+      }
+    },
+    "Hybrid without FP-Growth": {
+      "accuracy": {
+        "mean": 89.19,
+        "std": 0.14
+      },
+      "precision": {
+        "mean": 100,
+        "std": 0
+      },
+      "recall": {
+        "mean": 19.56,
+        "std": 1.02
+      },
+      "f1": {
+        "mean": 32.7,
+        "std": 1.42
+      },
+      "roc_auc": {
+        "mean": 0.96,
+        "std": 0.01
+      }
+    },
+    "Hybrid without URL intelligence": {
+      "accuracy": {
+        "mean": 91.82,
+        "std": 0.4
+      },
+      "precision": {
+        "mean": 98.94,
+        "std": 1.83
+      },
+      "recall": {
+        "mean": 39.56,
+        "std": 3.15
+      },
+      "f1": {
+        "mean": 56.46,
+        "std": 3.19
+      },
+      "roc_auc": {
+        "mean": 0.95,
+        "std": 0.01
+      }
+    },
+    "Hybrid without intent analysis": {
+      "accuracy": {
+        "mean": 91.85,
+        "std": 0.36
+      },
+      "precision": {
+        "mean": 98.94,
+        "std": 1.83
+      },
+      "recall": {
+        "mean": 39.78,
+        "std": 2.77
+      },
+      "f1": {
+        "mean": 56.7,
+        "std": 2.79
+      },
+      "roc_auc": {
+        "mean": 0.95,
+        "std": 0.01
+      }
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 13,
+      "metrics": {
+        "Full hybrid": {
+          "accuracy": 91.85,
+          "precision": 96.83,
+          "recall": 40.67,
+          "f1": 57.28,
+          "roc_auc": 0.9554,
+          "support": 1116
+        },
+        "DistilBERT only": {
+          "accuracy": 98.3,
+          "precision": 95.17,
+          "recall": 92,
+          "f1": 93.56,
+          "roc_auc": 0.9594,
+          "support": 1116
+        },
+        "FP-Growth only": {
+          "accuracy": 90.05,
+          "precision": 73.49,
+          "recall": 40.67,
+          "f1": 52.36,
+          "roc_auc": 0.6956,
+          "support": 1116
+        },
+        "URL intelligence only": {
+          "accuracy": 86.56,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "roc_auc": 0.5,
+          "support": 1116
+        },
+        "Intent only": {
+          "accuracy": 86.56,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "roc_auc": 0.6582,
+          "support": 1116
+        },
+        "Hybrid without DistilBERT": {
+          "accuracy": 89.07,
+          "precision": 75,
+          "recall": 28,
+          "f1": 40.78,
+          "roc_auc": 0.7441,
+          "support": 1116
+        },
+        "Hybrid without FP-Growth": {
+          "accuracy": 89.34,
+          "precision": 100,
+          "recall": 20.67,
+          "f1": 34.25,
+          "roc_auc": 0.9658,
+          "support": 1116
+        },
+        "Hybrid without URL intelligence": {
+          "accuracy": 91.85,
+          "precision": 96.83,
+          "recall": 40.67,
+          "f1": 57.28,
+          "roc_auc": 0.9554,
+          "support": 1116
+        },
+        "Hybrid without intent analysis": {
+          "accuracy": 91.85,
+          "precision": 96.83,
+          "recall": 40.67,
+          "f1": 57.28,
+          "roc_auc": 0.947,
+          "support": 1116
+        }
+      },
+      "latency": {
+        "semantic": {
+          "mean": 4.59,
+          "p95": 8.61
+        },
+        "url-intel": {
+          "mean": 0,
+          "p95": 0
+        },
+        "pattern": {
+          "mean": 0.01,
+          "p95": 0.02
+        },
+        "intent": {
+          "mean": 0.01,
+          "p95": 0.02
+        }
+      }
+    },
+    {
+      "seed": 42,
+      "metrics": {
+        "Full hybrid": {
+          "accuracy": 91.4,
+          "precision": 100,
+          "recall": 36,
+          "f1": 52.94,
+          "roc_auc": 0.9617,
+          "support": 1116
+        },
+        "DistilBERT only": {
+          "accuracy": 98.21,
+          "precision": 95.14,
+          "recall": 91.33,
+          "f1": 93.2,
+          "roc_auc": 0.9561,
+          "support": 1116
+        },
+        "FP-Growth only": {
+          "accuracy": 90.05,
+          "precision": 77.46,
+          "recall": 36.67,
+          "f1": 49.77,
+          "roc_auc": 0.6768,
+          "support": 1116
+        },
+        "URL intelligence only": {
+          "accuracy": 86.65,
+          "precision": 100,
+          "recall": 0.67,
+          "f1": 1.32,
+          "roc_auc": 0.5267,
+          "support": 1116
+        },
+        "Intent only": {
+          "accuracy": 86.56,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "roc_auc": 0.6877,
+          "support": 1116
+        },
+        "Hybrid without DistilBERT": {
+          "accuracy": 89.43,
+          "precision": 79.63,
+          "recall": 28.67,
+          "f1": 42.16,
+          "roc_auc": 0.7654,
+          "support": 1116
+        },
+        "Hybrid without FP-Growth": {
+          "accuracy": 89.16,
+          "precision": 100,
+          "recall": 19.33,
+          "f1": 32.4,
+          "roc_auc": 0.9699,
+          "support": 1116
+        },
+        "Hybrid without URL intelligence": {
+          "accuracy": 91.4,
+          "precision": 100,
+          "recall": 36,
+          "f1": 52.94,
+          "roc_auc": 0.9581,
+          "support": 1116
+        },
+        "Hybrid without intent analysis": {
+          "accuracy": 91.49,
+          "precision": 100,
+          "recall": 36.67,
+          "f1": 53.66,
+          "roc_auc": 0.956,
+          "support": 1116
+        }
+      },
+      "latency": {
+        "semantic": {
+          "mean": 4.49,
+          "p95": 8.19
+        },
+        "url-intel": {
+          "mean": 0,
+          "p95": 0
+        },
+        "pattern": {
+          "mean": 0.01,
+          "p95": 0.02
+        },
+        "intent": {
+          "mean": 0.01,
+          "p95": 0.02
+        }
+      }
+    },
+    {
+      "seed": 77,
+      "metrics": {
+        "Full hybrid": {
+          "accuracy": 92.2,
+          "precision": 100,
+          "recall": 42,
+          "f1": 59.15,
+          "roc_auc": 0.9455,
+          "support": 1116
+        },
+        "DistilBERT only": {
+          "accuracy": 98.03,
+          "precision": 96.38,
+          "recall": 88.67,
+          "f1": 92.36,
+          "roc_auc": 0.9429,
+          "support": 1116
+        },
+        "FP-Growth only": {
+          "accuracy": 90.95,
+          "precision": 81.82,
+          "recall": 42,
+          "f1": 55.51,
+          "roc_auc": 0.7054,
+          "support": 1116
+        },
+        "URL intelligence only": {
+          "accuracy": 86.56,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "roc_auc": 0.5067,
+          "support": 1116
+        },
+        "Intent only": {
+          "accuracy": 86.56,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "roc_auc": 0.6654,
+          "support": 1116
+        },
+        "Hybrid without DistilBERT": {
+          "accuracy": 89.16,
+          "precision": 75.44,
+          "recall": 28.67,
+          "f1": 41.55,
+          "roc_auc": 0.773,
+          "support": 1116
+        },
+        "Hybrid without FP-Growth": {
+          "accuracy": 89.07,
+          "precision": 100,
+          "recall": 18.67,
+          "f1": 31.46,
+          "roc_auc": 0.9518,
+          "support": 1116
+        },
+        "Hybrid without URL intelligence": {
+          "accuracy": 92.2,
+          "precision": 100,
+          "recall": 42,
+          "f1": 59.15,
+          "roc_auc": 0.9419,
+          "support": 1116
+        },
+        "Hybrid without intent analysis": {
+          "accuracy": 92.2,
+          "precision": 100,
+          "recall": 42,
+          "f1": 59.15,
+          "roc_auc": 0.9418,
+          "support": 1116
+        }
+      },
+      "latency": {
+        "semantic": {
+          "mean": 4.53,
+          "p95": 8.51
+        },
+        "url-intel": {
+          "mean": 0,
+          "p95": 0
+        },
+        "pattern": {
+          "mean": 0.01,
+          "p95": 0.02
+        },
+        "intent": {
+          "mean": 0.01,
+          "p95": 0.01
+        }
+      }
+    }
+  ],
+  "mined_templates": [
+    {
+      "template": "call + claim",
+      "spamSupport": 65,
+      "hamSupport": 0,
+      "lift": 108878.72
+    },
+    {
+      "template": "call + prize",
+      "spamSupport": 59,
+      "hamSupport": 0,
+      "lift": 98828.47
+    },
+    {
+      "template": "free + txt",
+      "spamSupport": 50,
+      "hamSupport": 0,
+      "lift": 83753.09
+    },
+    {
+      "template": "call + contact",
+      "spamSupport": 47,
+      "hamSupport": 0,
+      "lift": 78727.97
+    },
+    {
+      "template": "call + won",
+      "spamSupport": 48,
+      "hamSupport": 1,
+      "lift": 309.24
+    },
+    {
+      "template": "call + mobile",
+      "spamSupport": 55,
+      "hamSupport": 2,
+      "lift": 177.51
+    },
+    {
+      "template": "call + min",
+      "spamSupport": 54,
+      "hamSupport": 2,
+      "lift": 174.28
+    },
+    {
+      "template": "call + only",
+      "spamSupport": 42,
+      "hamSupport": 4,
+      "lift": 67.84
+    },
+    {
+      "template": "free + now",
+      "spamSupport": 42,
+      "hamSupport": 4,
+      "lift": 67.84
+    },
+    {
+      "template": "call + free",
+      "spamSupport": 51,
+      "hamSupport": 9,
+      "lift": 36.63
+    },
+    {
+      "template": "call + now",
+      "spamSupport": 76,
+      "hamSupport": 26,
+      "lift": 18.9
+    },
+    {
+      "template": "just + now",
+      "spamSupport": 35,
+      "hamSupport": 16,
+      "lift": 14.14
+    },
+    {
+      "template": "get + now",
+      "spamSupport": 26,
+      "hamSupport": 20,
+      "lift": 8.41
+    }
+  ],
+  "latency": {
+    "semantic": {
+      "mean": 4.59,
+      "p95": 8.61
+    },
+    "url-intel": {
+      "mean": 0,
+      "p95": 0
+    },
+    "pattern": {
+      "mean": 0.01,
+      "p95": 0.02
+    },
+    "intent": {
+      "mean": 0.01,
+      "p95": 0.02
+    }
+  },
+  "note": "Produced by scripts/node/eval.ts using the shipped pipeline in src/lib/ml."
+}

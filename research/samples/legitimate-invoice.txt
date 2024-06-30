@@ -1,0 +1,12 @@
+Subject: Your invoice 2026-0417 is ready
+
+Hello,
+
+Your invoice for April is ready to download. The total is 248.00 EUR, due on
+15 May.
+
+You can find it in your account under "Billing". If you have any questions,
+reply to this message and we will get back to you.
+
+Kind regards,
+Billing Team

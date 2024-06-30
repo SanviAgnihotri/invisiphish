@@ -1,0 +1,54 @@
+{
+  "dataset": "SMS Spam Collection (UCI id 228)",
+  "raw_messages": 5572,
+  "after_deduplication": 5126,
+  "spam_rate": 0.1227,
+  "split": {
+    "test_size": 0.2,
+    "seed": 42
+  },
+  "model": "TF-IDF (word 1-2 gram, sublinear) + LinearSVC",
+  "majority_class_baseline": {
+    "accuracy": 87.73,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "tp": 0,
+    "fp": 0,
+    "fn": 629,
+    "tn": 4497
+  },
+  "stratified_split": {
+    "accuracy": 98.15,
+    "precision": 95.73,
+    "recall": 88.89,
+    "f1": 92.18,
+    "roc_auc": 0.9417,
+    "tp": 112,
+    "fp": 5,
+    "fn": 14,
+    "tn": 895,
+    "test_size_messages": 1026,
+    "test_spam_count": 126
+  },
+  "balanced_split": {
+    "accuracy": 94.84,
+    "precision": 94.49,
+    "recall": 95.24,
+    "f1": 94.86,
+    "roc_auc": 0.9484,
+    "tp": 120,
+    "fp": 7,
+    "fn": 6,
+    "tn": 119,
+    "test_size_messages": 252
+  },
+  "paper_claim_full_hybrid": {
+    "accuracy": 94.2,
+    "precision": 93.1,
+    "recall": 95.6,
+    "f1": 94.33,
+    "roc_auc": 0.972
+  }
+}

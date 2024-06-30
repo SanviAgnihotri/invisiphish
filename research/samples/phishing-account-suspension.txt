@@ -1,0 +1,17 @@
+Subject: URGENT: Your account has been suspended - verify your identity immediately
+
+Dear valued customer,
+
+We regret to inform you that your account has been suspended due to unusual
+activity detected on your profile. You have 24 hours to verify your identity
+or your account will be permanently closed and all pending transactions will
+be forfeited.
+
+Click the link below to restore access immediately:
+http://192.168.0.1/verify?account=88213
+
+Failure to comply within 24 hours will result in permanent closure of your
+account. This is your final notice.
+
+Kind regards,
+Account Security Team

@@ -1,0 +1,13 @@
+Subject: Your parcel could not be delivered - a 1.99 EUR customs fee is required
+
+Hello,
+
+We attempted to deliver your parcel (tracking HD-4471-2288) but the courier
+was unable to hand it over. A customs fee of 1.99 EUR is outstanding.
+
+To release your package, please confirm your payment within 24 hours:
+http://bit.ly/track99
+
+If the fee is not paid the parcel will be returned to the sender.
+
+FedEx Customer Care
